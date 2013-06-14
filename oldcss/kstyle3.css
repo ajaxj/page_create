@@ -1,0 +1,6 @@
+@charset "utf-8";
+/* CSS Document */
+#logo{display:none;}
+.ads{height:70px;overflow:hidden;}
+.ads h1{display:none;float:right;line-height:70px;}
+.navbar{display:none;}

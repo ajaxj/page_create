@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body {onload:expression(location.href='http://live.sportscn.com/nba/livebasket_nba.html');}
+#logo{display:none;}
+.ads{height:70px;overflow:hidden;}
+.ads h1{display:none;float:right;line-height:70px;}
+.navbar{display:none;}
