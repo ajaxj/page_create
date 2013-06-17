@@ -150,7 +150,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -162,7 +162,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index2.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -174,7 +174,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index3.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -186,7 +186,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index4.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -198,7 +198,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index5.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -210,7 +210,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index6.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -222,7 +222,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index7.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -234,7 +234,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index8.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -246,7 +246,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index9.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -258,7 +258,7 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
             filename = "d:/data/index10.html"
             fileHandle = open(filename,'w')
             index_html = templateindex.index_getHtml(html_tmp)
@@ -302,7 +302,7 @@ def createPages():
     page = 0
     index_html = ""
     for seo in seo_list:
-        path = r'%s/%s'%("d:/data","news_"+str(seo[2]))
+        path = r'%s/%s'%("d:/data","/news_"+str(seo[2]))
         if os.path.exists(path) == False:
             os.makedirs(path)
         list_str = readText()

@@ -16,7 +16,7 @@ def index_getHtml(html_tmp):
     html +="<META name=MSSmartTagsPreventParsing content=True>"
     html +="<META content=Yes http-equiv=MSThemeCompatible>"
     html +="<link href=\"http://image.sportscn.com/2010/css/news.css\" type=\"text/css\" rel=\"stylesheet\" />"
-    html +="<link href=\"kstyle.css\" type=\"text/css\" rel=\"stylesheet\" />"
+    html += "<link href=\"http://www.topcai.cn/pagescss/kstyle1.css\" type=\"text/css\" rel=\"stylesheet\" />"
     html +="</head>"
     html +="<body>"
     html +="<div class=\"B9 gtop\">"
