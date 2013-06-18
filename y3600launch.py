@@ -21,7 +21,7 @@ def parseHtml():
 
 def readText():
     list = []
-    filename = "1.txt"
+    filename = "1.txt.bak"
     fileHandle = open(filename)
     msg = fileHandle.read()
     # s  = unicode(s,'gbk') #תΪunicode
@@ -90,7 +90,7 @@ def readText():
 
 
 def readSeoToList():
-    filename = "0607seo1000.txt"
+    filename = "0607seo1000.txt.bak"
     fileHandle = open(filename)
     line = fileHandle.readline().decode('gbk').encode('utf-8')
     list = []

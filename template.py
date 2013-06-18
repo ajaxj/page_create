@@ -1,5 +1,6 @@
 # -*- coding:utf-8-*-
 import random
+import time
 
 __author__ = 'Administrator'
 
@@ -138,7 +139,7 @@ def getHtml(msg,seo,seo_list):
     html +="<a href=\"javascript:;\"  onclick=\"document.getElementById('article').style.fontSize='14px'\" class=\"Red\">中</a>"
     html +="<a href=\"javascript:;\" onclick=\"document.getElementById('article').style.fontSize='12px'\">小</a>"
     html +="</ol>"
-    html +="<ol class=\"date\">发布: 2013-6-08 12:55</ol>"
+    html +="<ol class=\"date\">发布: "+time.strftime("%Y-%m-%d",time.localtime())+"</ol>"
     html +="<li><img src=\"http://i3.sinaimg.cn/home/2013/0608/U8075P30DT20130608055803.jpg\">  <a href=\"/data/news_"+str(seo_list[67][2])+"/index.html\">"+str(seo_list[67][0])+"</a>（<a class=\"Red Blod\">0</a>）</li>"
     html +="</ul>"
     html +="<div id=\"vogate_ad_area\">"

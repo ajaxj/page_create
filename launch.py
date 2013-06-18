@@ -21,7 +21,8 @@ def parseHtml():
 
 def readText():
     list = []
-    filename = "1.txt"
+    # filename = "1.txt.bak"
+    filename = "2.txt"
     fileHandle = open(filename)
     msg = fileHandle.read()
     # s  = unicode(s,'gbk') #תΪunicode
@@ -90,11 +91,12 @@ def readText():
 
 
 def readSeoToList():
-    filename = "0607seo1000.txt"
+    # filename = "0607seo1000.txt.bak"
+    filename = "bf4500_0618.txt"
     fileHandle = open(filename)
     line = fileHandle.readline().decode('gbk').encode('utf-8')
     list = []
-    i = 2484
+    i = 1
     while line:
         line_arr = line.split("\t")
 
@@ -158,7 +160,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 200:
             html_tmp = ""
-            for seo in seo_list[100:200]:
+            for seo in seo_list[1000:1200]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -170,7 +172,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 300:
             html_tmp = ""
-            for seo in seo_list[200:300]:
+            for seo in seo_list[2200:2300]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -182,7 +184,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 400:
             html_tmp = ""
-            for seo in seo_list[300:400]:
+            for seo in seo_list[3300:3400]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -194,7 +196,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 500:
             html_tmp = ""
-            for seo in seo_list[400:500]:
+            for seo in seo_list[1400:1500]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -206,7 +208,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 600:
             html_tmp = ""
-            for seo in seo_list[500:600]:
+            for seo in seo_list[2500:2600]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -218,7 +220,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 700:
             html_tmp = ""
-            for seo in seo_list[600:700]:
+            for seo in seo_list[1600:1700]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -230,7 +232,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 800:
             html_tmp = ""
-            for seo in seo_list[700:800]:
+            for seo in seo_list[2700:2800]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -242,7 +244,7 @@ def createPages():
             fileHandle.close()
         elif page_count == 900:
             html_tmp = ""
-            for seo in seo_list[800:900]:
+            for seo in seo_list[3800:3900]:
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
@@ -324,7 +326,7 @@ def createPages():
         # print msg_1.decode('gbk').encode('utf-8')
         # print msg_1
         # exit(1)
-        for ml in range(1,6):
+        for ml in range(1,10):
             msg_1 = random.choice(list_str)
             msg +=  msg_1.decode('gbk').encode('utf-8') + seo[0]# + random.choice(list_str)
             # msg =msg + msg_1[:int(index)] + seo
