@@ -5,10 +5,9 @@ import time
 __author__ = 'Administrator'
 
 
-
 def getHtml(msg,seo,seo_list):
     html = "<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\"><html xmlns=\"http://www.w3.org/1999/xhtml\"><head>"
-    html +="<title>"+ seo[0]  + random.choice(seo_list)[0]  + random.choice(seo_list)[0] +"</title>"
+    html +="<title>"+ seo[0]  + " - 足球直播</title>"
     html +="<META content=\"text/html; charset=utf-8\" http-equiv=Content-Type><META content=IE=7 http-equiv=X-UA-Compatible>"
     html +="<META name=keywords content=\""+seo[0]+ ","+ seo_list[52][0]  + "," + seo_list[53][0] +"," + seo_list[54][0]  +","+ seo_list[55][0]  + "," + seo_list[56][0] +"," + seo_list[57][0] + "\"/>"
     html +="<META name=description content=\""  + seo_list[58][0] + "," + seo_list[59][0]  +","+  seo_list[60][0] +"," + seo_list[61][0] +"," + seo_list[62][0] +"," + seo_list[63][0]  +"\"/>"
