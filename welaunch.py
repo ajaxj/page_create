@@ -270,32 +270,6 @@ def createPages():
             print "none"
         page_count += 1
 
-    # page_count = len(seo_list)
-    # pagenum = 0
-    # page = 2
-    # html_tmp = ""
-    # for i in range(1,page_count):
-    #     html_tmp +="<DIV class=wdlx>"
-    #     html_tmp +="<DL>&gt;&gt;</DL>"
-    #     html_tmp +="<UL><A title=\"世界杯预选赛阿根廷三连平 马斯切拉诺离奇罚下\" href=\"http://we.sportscn.com/viewnews-1322177.html\" target=_blank>世界杯预选赛阿根廷三连平 马斯切拉诺离奇罚下</A></UL><SPAN>06-13</SPAN></DIV>"
-    #     if(pagenum > 100):
-    #         # filename = "d:/news/index" + str(page) +".html"
-    #         # fileHandle = open(filename,'w')
-    #         # index_html = templateindex.index_getHtml(html_tmp)
-    #         # fileHandle.write(index_html)
-    #         # fileHandle.close()
-    #         print html_tmp
-    #         pagenum = 0
-    #         page += 1
-    #         html_tmp=""
-    #     else:
-    #         # index_html = templateindex.index_getHtml(html_tmp)
-    #         # filename = "d:/news/index.html"
-    #         # fileHandle = open(filename,'w')
-    #         # fileHandle.write(index_html)
-    #         # fileHandle.close()
-    #         html_tmp=""
-    #     pagenum+=1
 
 
 
@@ -311,37 +285,22 @@ def createPages():
 
         index_html += '<a href="">test</a><br/>'
 
-        # for i in range(1,len(list_str)):
-        #     print list_str[i]
-        #
-        # exit(1)
 
 
         msg = ''
         msg_1 = random.choice(list_str)
-        # print list_str[1].decode('gbk').encode('utf-8')
-        # print msg_1.decode("gbk").encode('utf-8')
-        # exit(1)
-        # msg_1 = list_str[3]
-        # print msg_1.decode('gbk').encode('utf-8')
-        # print msg_1
-        # exit(1)
+
         for ml in range(1,10):
             msg_1 = random.choice(list_str)
             msg +=  msg_1.decode('gbk').encode('utf-8') + seo[0]# + random.choice(list_str)
             # msg =msg + msg_1[:int(index)] + seo
 
 
-        # msg = msg_1.decode('gbk').encode('utf-8')
-        #print msg
-        # msg = list_str[page].decode('gbk').encode('utf-8')
-        # print msg
         temp_seo_list = []
         for i in range(1,86):
             temp_seo_list.append(random.choice(seo_list))
 
         html =  wetemplate.getHtml(msg,seo,temp_seo_list)
-        # html = template.getTemplate()
         filename = path + "/index.html"
         fileHandle = open(filename,'w')
         fileHandle.write(html)
@@ -355,12 +314,4 @@ def createPages():
 if __name__ == "__main__":
     # parseHtml()
     createPages()
-    # list = readText()
-    # print len(list)
-    # # print list[0]
-    # print "-----------"
-    # txt = random.choice(list)
-    # print txt
-    # print list[97]
-    # print list[100]
-    # print list[199]
+
