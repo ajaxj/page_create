@@ -3,15 +3,15 @@ import os
 import string
 import random
 import time
-import template
-import templateindex
+import y3600template
+import y3600templateindex
 from BeautifulSoup import BeautifulSoup
 
 __author__ = 'ajaxj'
 
 
 def parseHtml():
-    soup = BeautifulSoup(template.getTemplate())
+    soup = BeautifulSoup(y3600template.getTemplate())
     a_list  = soup.findAll("a")
     for a in a_list:
         print a
@@ -21,7 +21,7 @@ def parseHtml():
 
 def readText():
     list = []
-    filename = "1.txt.bak"
+    filename = "y3600txt.txt"
     fileHandle = open(filename)
     msg = fileHandle.read()
     # s  = unicode(s,'gbk') #转为unicode
@@ -90,11 +90,11 @@ def readText():
 
 
 def readSeoToList():
-    filename = "0607seo1000.txt.bak"
+    filename = "y3600seo.txt"
     fileHandle = open(filename)
     line = fileHandle.readline().decode('gbk').encode('utf-8')
     list = []
-    i = 2484
+    i = 1
     while line:
         line_arr = line.split("\t")
 
@@ -150,10 +150,10 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index.html"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+            filename = "d:/article/index.html"
             fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
+            index_html = y3600templateindex.index_getHtml(html_tmp)
             fileHandle.write(index_html)
             fileHandle.close()
         elif page_count == 200:
@@ -162,10 +162,10 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index2.html"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+            filename = "d:/article/index2.html"
             fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
+            index_html = y3600templateindex.index_getHtml(html_tmp)
             fileHandle.write(index_html)
             fileHandle.close()
         elif page_count == 300:
@@ -174,10 +174,10 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index3.html"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+            filename = "d:/article/index3.html"
             fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
+            index_html = y3600templateindex.index_getHtml(html_tmp)
             fileHandle.write(index_html)
             fileHandle.close()
         elif page_count == 400:
@@ -186,10 +186,10 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index4.html"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+            filename = "d:/article/index4.html"
             fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
+            index_html = y3600templateindex.index_getHtml(html_tmp)
             fileHandle.write(index_html)
             fileHandle.close()
         elif page_count == 500:
@@ -198,72 +198,72 @@ def createPages():
                 title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index5.html"
+                html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+            filename = "d:/article/index5.html"
             fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
+            index_html = y3600templateindex.index_getHtml(html_tmp)
             fileHandle.write(index_html)
             fileHandle.close()
-        elif page_count == 600:
-            html_tmp = ""
-            for seo in seo_list[500:600]:
-                title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
-                html_tmp +="<DIV class=wdlx>"
-                html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index6.html"
-            fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
-            fileHandle.write(index_html)
-            fileHandle.close()
-        elif page_count == 700:
-            html_tmp = ""
-            for seo in seo_list[600:700]:
-                title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
-                html_tmp +="<DIV class=wdlx>"
-                html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index7.html"
-            fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
-            fileHandle.write(index_html)
-            fileHandle.close()
-        elif page_count == 800:
-            html_tmp = ""
-            for seo in seo_list[700:800]:
-                title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
-                html_tmp +="<DIV class=wdlx>"
-                html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index8.html"
-            fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
-            fileHandle.write(index_html)
-            fileHandle.close()
-        elif page_count == 900:
-            html_tmp = ""
-            for seo in seo_list[800:900]:
-                title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
-                html_tmp +="<DIV class=wdlx>"
-                html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index9.html"
-            fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
-            fileHandle.write(index_html)
-            fileHandle.close()
-        elif page_count == 1000:
-            html_tmp = ""
-            for seo in seo_list[900:1000]:
-                title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
-                html_tmp +="<DIV class=wdlx>"
-                html_tmp +="<DL>&gt;&gt;</DL>"
-                html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index10.html"
-            fileHandle = open(filename,'w')
-            index_html = templateindex.index_getHtml(html_tmp)
-            fileHandle.write(index_html)
-            fileHandle.close()
+        # elif page_count == 600:
+        #     html_tmp = ""
+        #     for seo in seo_list[500:600]:
+        #         title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
+        #         html_tmp +="<DIV class=wdlx>"
+        #         html_tmp +="<DL>&gt;&gt;</DL>"
+        #         html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+        #     filename = "d:/article/index6.html"
+        #     fileHandle = open(filename,'w')
+        #     index_html = templateindex.index_getHtml(html_tmp)
+        #     fileHandle.write(index_html)
+        #     fileHandle.close()
+        # elif page_count == 700:
+        #     html_tmp = ""
+        #     for seo in seo_list[600:700]:
+        #         title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
+        #         html_tmp +="<DIV class=wdlx>"
+        #         html_tmp +="<DL>&gt;&gt;</DL>"
+        #         html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+        #     filename = "d:/article/index7.html"
+        #     fileHandle = open(filename,'w')
+        #     index_html = templateindex.index_getHtml(html_tmp)
+        #     fileHandle.write(index_html)
+        #     fileHandle.close()
+        # elif page_count == 800:
+        #     html_tmp = ""
+        #     for seo in seo_list[700:800]:
+        #         title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
+        #         html_tmp +="<DIV class=wdlx>"
+        #         html_tmp +="<DL>&gt;&gt;</DL>"
+        #         html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+        #     filename = "d:/article/index8.html"
+        #     fileHandle = open(filename,'w')
+        #     index_html = templateindex.index_getHtml(html_tmp)
+        #     fileHandle.write(index_html)
+        #     fileHandle.close()
+        # elif page_count == 900:
+        #     html_tmp = ""
+        #     for seo in seo_list[800:900]:
+        #         title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
+        #         html_tmp +="<DIV class=wdlx>"
+        #         html_tmp +="<DL>&gt;&gt;</DL>"
+        #         html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+        #     filename = "d:/article/index9.html"
+        #     fileHandle = open(filename,'w')
+        #     index_html = templateindex.index_getHtml(html_tmp)
+        #     fileHandle.write(index_html)
+        #     fileHandle.close()
+        # elif page_count == 1000:
+        #     html_tmp = ""
+        #     for seo in seo_list[900:1000]:
+        #         title = seo[0] + random.choice(seo_list)[0] + random.choice(seo_list)[0]
+        #         html_tmp +="<DIV class=wdlx>"
+        #         html_tmp +="<DL>&gt;&gt;</DL>"
+        #         html_tmp +="<UL><A title=\""+title+"\" href=\"/article/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
+        #     filename = "d:/article/index10.html"
+        #     fileHandle = open(filename,'w')
+        #     index_html = templateindex.index_getHtml(html_tmp)
+        #     fileHandle.write(index_html)
+        #     fileHandle.close()
         else:
             print "none"
         page_count += 1
@@ -277,7 +277,7 @@ def createPages():
     #     html_tmp +="<DL>&gt;&gt;</DL>"
     #     html_tmp +="<UL><A title=\"世界杯预选赛阿根廷三连平 马斯切拉诺离奇罚下\" href=\"http://we.sportscn.com/viewnews-1322177.html\" target=_blank>世界杯预选赛阿根廷三连平 马斯切拉诺离奇罚下</A></UL><SPAN>06-13</SPAN></DIV>"
     #     if(pagenum > 100):
-    #         # filename = "d:/data/index" + str(page) +".html"
+    #         # filename = "d:/article/index" + str(page) +".html"
     #         # fileHandle = open(filename,'w')
     #         # index_html = templateindex.index_getHtml(html_tmp)
     #         # fileHandle.write(index_html)
@@ -288,7 +288,7 @@ def createPages():
     #         html_tmp=""
     #     else:
     #         # index_html = templateindex.index_getHtml(html_tmp)
-    #         # filename = "d:/data/index.html"
+    #         # filename = "d:/article/index.html"
     #         # fileHandle = open(filename,'w')
     #         # fileHandle.write(index_html)
     #         # fileHandle.close()
@@ -302,7 +302,7 @@ def createPages():
     page = 0
     index_html = ""
     for seo in seo_list:
-        path = r'%s/%s'%("d:/data","/news_"+str(seo[2]))
+        path = r'%s/%s'%("d:/article","/news_"+str(seo[2]))
         if os.path.exists(path) == False:
             os.makedirs(path)
         list_str = readText()
@@ -326,6 +326,7 @@ def createPages():
         # exit(1)
         for ml in range(1,6):
             msg_1 = random.choice(list_str)
+            # print  msg_1.decode('gbk').encode('utf-8')
             msg +=  msg_1.decode('gbk').encode('utf-8') + seo[0]# + random.choice(list_str)
             # msg =msg + msg_1[:int(index)] + seo
 
@@ -338,7 +339,7 @@ def createPages():
         for i in range(1,86):
             temp_seo_list.append(random.choice(seo_list))
 
-        html =  template.getHtml(msg,seo,temp_seo_list)
+        html =  y3600template.getHtml(msg,seo,temp_seo_list)
         # html = template.getTemplate()
         filename = path + "/index.html"
         fileHandle = open(filename,'w')

