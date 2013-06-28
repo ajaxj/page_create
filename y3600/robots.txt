@@ -1,0 +1,36 @@
+User-Agent: Baiduspider
+Disallow: /admin/
+Disallow: /cache/
+Allow: /archiver/
+Allow: /article/
+Allow: /data/
+Disallow: /attachments/
+Disallow: /channel/
+Disallow: /class/
+Disallow: /effects/
+Disallow: /flash/
+Disallow: /function/
+Allow: /html/
+Disallow: /images/
+Disallow: /include/
+Disallow: /css/
+Disallow: /templates/
+Disallow: /plugins/
+Disallow: /language/
+Disallow: /log/
+Disallow: /themes/
+Disallow: /update/
+Disallow: /user/
+Disallow: /video/
+Disallow: /xthemes/
+Disallow: /admincp.php
+Disallow: /announcement.php
+Disallow: /batch.*.php
+Disallow: /*_*.php
+Disallow: /register.php
+Disallow: /xmlrpc.php
+Disallow: /data/wo.php?*
+Allow: /*.html$
+Allow: /*.htm$
+Disallow:/action-viewcomment*
+
