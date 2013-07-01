@@ -21,7 +21,7 @@ def parseHtml():
 
 def readText():
     list = []
-    filename = "y3600txt1.txt"
+    filename = "y3600txt3.txt"
     fileHandle = open(filename)
     msg = fileHandle.read()
     # s  = unicode(s,'gbk') #תΪunicode
@@ -94,7 +94,7 @@ def readSeoToList():
     fileHandle = open(filename)
     line = fileHandle.readline().decode('gbk').encode('utf-8')
     list = []
-    i = 600
+    i = 1800
     while line:
         line_arr = line.split("\t")
 
