@@ -1,0 +1,4 @@
+124.74.193.101 webdev
+rsync -vzrtopg --delete --timeout=30 /home/webdev/html/data/ 119.147.41.87::www/data/
+
+rsync -vzrtopg --delete --timeout=30 /home/webdev/html/data/ 124.74.193.107::www/data/
