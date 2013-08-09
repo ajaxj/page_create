@@ -21,7 +21,7 @@ def AddPathToList(path):
 #读取文件内容分标题和正文
 def ReadFilesToList(fileList):
     list = []
-    pageNum = 10001
+    pageNum = 10400
     for file in fileList:
         filename = PATH + '/' + file
         fileHandle = open(filename)
@@ -50,14 +50,15 @@ def createPages():
 
     page_count = 0
     for seo in textList:
-        if page_count == 100:
+        print page_count
+        if page_count == 99:
             html_tmp = ""
             for seo in textList[0:100]:
                 title = seo[0]
                 html_tmp +="<DIV class=wdlx>"
                 html_tmp +="<DL>&gt;&gt;</DL>"
                 html_tmp +="<UL><A title=\""+title+"\" href=\"/data/news_"+str(seo[2])+"/index.html\" target=_blank>"+title+"</A></UL><SPAN>"+time.strftime("%m-%d",time.localtime())+"</SPAN></DIV>"
-            filename = "d:/data/index.html"
+            filename = "d:/data/index3.html"
             fileHandle = open(filename,'w')
             index_html = template.index_getHtml(html_tmp)
             fileHandle.write(index_html)
