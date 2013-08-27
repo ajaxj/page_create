@@ -224,11 +224,11 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     html += "<DIV class=pages>"
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/duchang/index3.html\">3</A></DIV></DIV>"
     elif cateid ==2:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index3.html\">3</A></DIV></DIV>"
     else:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index3.html\">3</A></DIV></DIV>"
 
 
     html += "<DIV class=\"CleanBoth \"></DIV>"
@@ -252,11 +252,11 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     html += "<DIV class=pages style=\"margin-top:10px;\">"
     # html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV>"
     if cateid == 1:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/duchang/index3.html\">3</A></DIV></DIV>"
     elif cateid ==2:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index3.html\">3</A></DIV></DIV>"
     else:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index3.html\">3</A></DIV></DIV>"
 
     html += "<DIV class=fm_footer><I class=l></I><I class=r></I></DIV></DIV>"
     html += "</DIV>"
