@@ -198,7 +198,7 @@ def createPage():
 
 
     #先取出来解码，然后加入标题，内容，页码
-    pagenum = 80
+    pagenum = 110
     for row in data_list1:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news1_data.append(data)
@@ -206,7 +206,7 @@ def createPage():
 
 
     # 玩法
-    pagenum = 80
+    pagenum = 110
     for row in data_list2:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news2_data.append(data)
@@ -214,7 +214,7 @@ def createPage():
         pagenum += 1
 
     #攻略
-    pagenum = 80
+    pagenum = 110
     for row in data_list3:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news3_data.append(data)
