@@ -82,7 +82,9 @@ def getDatabaseForList114():
             rs.MoveNext()
     rs.Close()
     conn.Close()
+    # print len(data_list)
     for data in data_list:
+        # print data
         insertToSQLite(data)
 
 
@@ -160,12 +162,14 @@ def getDatabaseForList109():
 #保存数据时SQLite
 def insertToSQLite(data):
     conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="macao",charset="utf8")
-    sql = "SELECT * FROM arts WHERE title = '%s'" %(data[0])
+    sql = "SELECT * FROM arts WHERE title = '%s' and cateid='%d'" %(data[0],data[2])
+    # print sql + str(data[2])
     cur = conn.cursor()
     cur.execute(sql)
     if cur.fetchone() == None:
         sql = "INSERT INTO arts(title,content,cateid)" \
                 " VALUES ('%s','%s','%d')" %(data[0].replace('\'','`'),data[1].replace('\'','`'),data[2])
+        # print sql
         try:
             cur.execute(sql)
             conn.commit()
@@ -179,9 +183,9 @@ def insertToSQLite(data):
 
 def createPage():
     conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="macao",charset="utf8")
-    sql_1 = "SELECT * FROM arts WHERE cateid = 1 and publish=0 limit 30"
-    sql_2 = "SELECT * FROM arts WHERE cateid = 2 and publish=0 limit 30"
-    sql_3 = "SELECT * FROM arts WHERE cateid = 3 and publish=0 limit 30"
+    sql_1 = "SELECT * FROM arts WHERE cateid = 1 and publish=0 limit 0, 20"
+    sql_2 = "SELECT * FROM arts WHERE cateid = 2 and publish=0 limit 0, 20"
+    sql_3 = "SELECT * FROM arts WHERE cateid = 3 and publish=0 limit 0, 20"
     cur = conn.cursor()
     cur.execute(sql_1)
     data_list1 = cur.fetchall()
@@ -198,7 +202,7 @@ def createPage():
 
 
     #先取出来解码，然后加入标题，内容，页码
-    pagenum = 110
+    pagenum = 160
     for row in data_list1:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news1_data.append(data)
@@ -206,7 +210,7 @@ def createPage():
 
 
     # 玩法
-    pagenum = 110
+    pagenum = 160
     for row in data_list2:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news2_data.append(data)
@@ -214,7 +218,7 @@ def createPage():
         pagenum += 1
 
     #攻略
-    pagenum = 110
+    pagenum = 160
     for row in data_list3:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news3_data.append(data)
@@ -285,7 +289,7 @@ if __name__ == '__main__':
     # getDatabaseForList110()
     # getDatabaseForList114()
     # 3
-    #getDatabaseForList111()
+    # getDatabaseForList111()
     # getDatabaseForList113()
 
     createPage()
