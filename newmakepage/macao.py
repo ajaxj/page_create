@@ -42,7 +42,7 @@ def getDatabaseForList113():
 def getDatabaseForList111():
     data_list = []
     conn = win32com.client.Dispatch(r'ADODB.Connection')
-    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/111/SpiderResult.mdb;"
+    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/137/SpiderResult.mdb;"
     conn.Open(DSN)
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
     rs.Cursorlocation=3
@@ -66,7 +66,7 @@ def getDatabaseForList111():
 def getDatabaseForList114():
     data_list = []
     conn = win32com.client.Dispatch(r'ADODB.Connection')
-    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/114/SpiderResult.mdb;"
+    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/137/SpiderResult.mdb;"
     conn.Open(DSN)
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
     rs.Cursorlocation=3
@@ -92,7 +92,7 @@ def getDatabaseForList114():
 def getDatabaseForList110():
     data_list = []
     conn = win32com.client.Dispatch(r'ADODB.Connection')
-    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/110/SpiderResult.mdb;"
+    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/136/SpiderResult.mdb;"
     conn.Open(DSN)
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
     rs.Cursorlocation=3
@@ -139,7 +139,7 @@ def getDatabaseForList112():
 def getDatabaseForList109():
     data_list = []
     conn = win32com.client.Dispatch(r'ADODB.Connection')
-    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/109/SpiderResult.mdb;"
+    DSN = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:/LocoySpider/Data/LocoySpider/135/SpiderResult.mdb;"
     conn.Open(DSN)
     rs = win32com.client.Dispatch(r'ADODB.Recordset')
     rs.Cursorlocation=3
@@ -151,11 +151,12 @@ def getDatabaseForList109():
             print "End of records"
             break
         else:
-            data_list.append([rs.Fields.Item(5).Value,rs.Fields.Item(6).Value,1])
+            data_list.append([rs.Fields.Item(3).Value,rs.Fields.Item(4).Value,1])
             rs.MoveNext()
     rs.Close()
     conn.Close()
     for data in data_list:
+        # print data
         insertToSQLite(data)
 
 
@@ -202,7 +203,7 @@ def createPage():
 
 
     #先取出来解码，然后加入标题，内容，页码
-    pagenum = 260
+    pagenum = 320
     for row in data_list1:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news1_data.append(data)
@@ -210,7 +211,7 @@ def createPage():
 
 
     # 玩法
-    pagenum = 260
+    pagenum = 320
     for row in data_list2:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news2_data.append(data)
@@ -218,7 +219,7 @@ def createPage():
         pagenum += 1
 
     #攻略
-    pagenum = 260
+    pagenum = 320
     for row in data_list3:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news3_data.append(data)
@@ -289,9 +290,9 @@ if __name__ == '__main__':
     # getDatabaseForList110()
     # getDatabaseForList114()
     # 3
-    # getDatabaseForList111()
+    getDatabaseForList111()
     # getDatabaseForList113()
 
-    createPage()
+    # createPage()
 
 
