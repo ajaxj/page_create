@@ -2,6 +2,7 @@
 # -*- coding:utf-8 -*-
 import MySQLdb
 import template
+import os
 
 __author__ = 'Administrator'
 import win32com.client
@@ -183,6 +184,7 @@ def insertToSQLite(data):
 
 
 def createPage():
+    #UPDATE arts SET publish = 1 WHERE cateid = 1 and publish=0 limit 20
     conn = MySQLdb.connect(host="localhost",user="root",passwd="",db="macao",charset="utf8")
     sql_1 = "SELECT * FROM arts WHERE cateid = 1 and publish=0 limit 0, 20"
     sql_2 = "SELECT * FROM arts WHERE cateid = 2 and publish=0 limit 0, 20"
@@ -203,7 +205,7 @@ def createPage():
 
 
     #先取出来解码，然后加入标题，内容，页码
-    pagenum = 320
+    pagenum = 380
     for row in data_list1:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news1_data.append(data)
@@ -211,7 +213,7 @@ def createPage():
 
 
     # 玩法
-    pagenum = 320
+    pagenum = 380
     for row in data_list2:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news2_data.append(data)
@@ -219,7 +221,7 @@ def createPage():
         pagenum += 1
 
     #攻略
-    pagenum = 320
+    pagenum = 380
     for row in data_list3:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news3_data.append(data)
@@ -282,7 +284,66 @@ def createDetailPage(data,cateid,data_list1,data_list2,data_list3):
     print "ok " + str(data[2])
 
 
+# 重命名生成INDEX 进一的文件名
+def createIndexPage():
+    path = 'e:\macao\duchang\\'
+    newpath = 'e:\macao1\d\\'
+    listfile = os.listdir(path)
+    list = []
+    for line in listfile:
+        s =line[5:-5]
+        if s == '':
+            s = '1'
+        s = int(s)
+        list.append((line,s))
+
+    a  = sorted(list, key=lambda list : list[1])
+    for i in a:
+        filename =i[0]
+        newfilename = "index" + str(i[1]+1) + ".html"
+        print filename,newfilename
+        os.rename(os.path.join(path,filename), os.path.join(newpath,newfilename))
+
+    path = 'e:\macao\gonglue\\'
+    newpath = 'e:\macao1\g\\'
+    listfile = os.listdir(path)
+    list = []
+    for line in listfile:
+        s =line[5:-5]
+        if s == '':
+            s = '1'
+        s = int(s)
+        list.append((line,s))
+
+    a  = sorted(list, key=lambda list : list[1])
+    for i in a:
+        filename =i[0]
+        newfilename = "index" + str(i[1]+1) + ".html"
+        print filename,newfilename
+        os.rename(os.path.join(path,filename), os.path.join(newpath,newfilename))
+
+
+    path = 'e:\macao\wanfa\\'
+    newpath = 'e:\macao1\w\\'
+    listfile = os.listdir(path)
+    list = []
+    for line in listfile:
+        s =line[5:-5]
+        if s == '':
+            s = '1'
+        s = int(s)
+        list.append((line,s))
+
+    a  = sorted(list, key=lambda list : list[1])
+    for i in a:
+        filename =i[0]
+        newfilename = "index" + str(i[1]+1) + ".html"
+        print filename,newfilename
+        os.rename(os.path.join(path,filename), os.path.join(newpath,newfilename))
+
+
 if __name__ == '__main__':
+    # createIndexPage()
     # 1
     # getDatabaseForList109()
     # getDatabaseForList112()
@@ -290,9 +351,19 @@ if __name__ == '__main__':
     # getDatabaseForList110()
     # getDatabaseForList114()
     # 3
-    getDatabaseForList111()
+    # getDatabaseForList111()
     # getDatabaseForList113()
 
-    # createPage()
+    createPage()
+
+
+
+
+
+
+
+
+
+
 
 

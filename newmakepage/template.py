@@ -224,17 +224,20 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     html += "<DIV class=pages>"
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/duchang/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/duchang/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/duchang/index5.html\">5</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/duchang/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/duchang/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/duchang/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/duchang/index10.html\">10</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/duchang/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/duchang/index13.html\">13</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html +="</DIV></DIV>"
     elif cateid ==2:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index5.html\">5</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index10.html\">10</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/wanfa/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index13.html\">13</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html +="</DIV></DIV>"
     else:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index5.html\">5</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index10.html\">10</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index13.html\">13</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html += "</DIV></DIV>"
 
     html += "<DIV class=\"CleanBoth \"></DIV>"
     if cateid == 1:
@@ -258,18 +261,20 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     # html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV>"
 
     if cateid == 1:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/duchang/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/duchang/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/duchang/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/duchang/index5.html\">5</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/duchang/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/duchang/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/duchang/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/duchang/index10.html\">10</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/duchang/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/duchang/index13.html\">13</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html +="</DIV></DIV>"
     elif cateid ==2:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/wanfa/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index5.html\">5</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index10.html\">10</A>"
-        html +="<A href=\"http://we.sportscn.com/macaubc/wanfa/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index13.html\">13</A></DIV></DIV>"
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html +="</DIV></DIV>"
     else:
-        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a><A href=\"http://we.sportscn.com/macaubc/gonglue/index2.html\">2</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index3.html\">3</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index4.html\">4</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index5.html\">5</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index6.html\">6</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index7.html\">7</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index8.html\">8</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index9.html\">9</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index10.html\">10</A>"
-        html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index11.html\">11</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index12.html\">12</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index13.html\">13</A></DIV></DIV>"
-
+        html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
+        for i in range(2,17):
+            html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        html += "</DIV></DIV>"
 
     html += "</DIV><DIV class=fm_footer><I class=l></I><I class=r></I></DIV></DIV>"
     html += "</DIV>"
@@ -365,7 +370,9 @@ def getDetailText(data,cateid,data_list1,data_list2,data_list3):
     html+="<OL class=date>发布:"+time.strftime("%Y-%m-%d",time.localtime())+"</OL>"
     html+="<LI> </LI></UL><div id=\"vogate_ad_area\"><div class=\"content artical\" id=\"article\">"
     html+="<p style=\"font-size:11px;\">"
-    html+="<a href='http://we.sportscn.com/macaubc/'><b>澳门赌场</b></a>被称为世界四大赌城之一，博彩业又被特区政府定为澳门经济的龙头产业，所以，要了解澳门，就要了解澳门的博彩业。而欲了解澳门的博彩业，又非一日之功。无论是将其作为一个庞大的产业来分析，还是视其为社会的一个特殊现象来研究，它都是一个未解之谜。"
+
+    #html+="<a href='http://we.sportscn.com/macaubc/'><b>澳门赌场</b></a>被称为世界四大赌城之一，博彩业又被特区政府定为澳门经济的龙头产业，所以，要了解澳门，就要了解澳门的博彩业。而欲了解澳门的博彩业，又非一日之功。无论是将其作为一个庞大的产业来分析，还是视其为社会的一个特殊现象来研究，它都是一个未解之谜。"
+    html+="澳门的博彩业的确是件让世人津津乐道的事。博彩业又被特区政府定为澳门经济的龙头产业，所以，要了解澳门，就要了解<a href='http://we.sportscn.com/macaubc/'><b>澳门赌场</b></a>。而欲了解澳门的博彩业，又非一日之功。据称，博彩业及其相关产业吸纳了澳门近一半的劳力就业，希望广大读者能从下文中的点点滴滴方方面面全角度了解一个真正澳门。"
     html+="</p>"
     html+="<br/>"
     html+= data[1]
