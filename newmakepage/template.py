@@ -95,37 +95,12 @@ def getHomeText(data_list1,data_list2,data_list3):
     html +="</div>"
     html +="<div class=\"fm_b2\">"
     html +="<ul>"
-    html +="<li>·<a target=\"_blank\" title=\"中国人嗜赌成性 国境线已被各国赌场包围\" href=\"http://we.sportscn.com/macaubc/jinghua/16.html\">中国人嗜赌成性 国境线已被各国赌场包围</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"澳门赌场里的行话\" href=\"http://we.sportscn.com/macaubc/jinghua/20.html\">澳门赌场里的行话</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"澳门赌场出老千被抓现行（视频）\" href=\"http://we.sportscn.com/macaubc/jinghua/17.html\">澳门赌场出老千被抓现行（视频）</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"【视频】澳门赌场风光\" href=\"http://we.sportscn.com/macaubc/jinghua/22.html\">【视频】澳门赌场风光</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"周润发2500万代言澳门赌场（视频）  \" href=\"http://we.sportscn.com/macaubc/jinghua/10.html\">周润发2500万代言澳门赌场（视频）  </a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"吃喝游记之澳门赌场行\" href=\"http://we.sportscn.com/macaubc/duchang/18.html\">吃喝游记之澳门赌场行</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"澳门赌场旅游攻略&mdash;&mdash;排名世界第一的赌城\" href=\"http://we.sportscn.com/macaubc/jinghua/7.html\">澳门赌场旅游攻略&mdash;&mdash;排名世界第一的赌城</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"少女游客想进澳门赌场 因年龄不够遭拒\" href=\"http://we.sportscn.com/macaubc/jinghua/14.html\">少女游客想进澳门赌场 因年龄不够遭拒</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"未满21周岁的人禁止进入澳门赌场\" href=\"http://we.sportscn.com/macaubc/jinghua/13.html\">未满21周岁的人禁止进入澳门赌场</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"国中产人士成澳门赌场新宠\" href=\"http://we.sportscn.com/macaubc/jinghua/12.html\">中国中产人士成澳门赌场新宠</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"中国地下赌场揭秘\" href=\"http://we.sportscn.com/macaubc/jinghua/4.html\">中国地下赌场揭秘</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"网络赌博：在心惊肉跳中沉溺\" href=\"http://we.sportscn.com/macaubc/jinghua/6.html\">网络赌博：在心惊肉跳中沉溺</a></li>"
-    html +="<li>·<a target=\"_blank\" title=\"未满21周岁的人禁止进入澳门赌场\" href=\"http://we.sportscn.com/macaubc/jinghua/13.html\">未满21周岁的人禁止进入澳门赌场</a></li>"
+    html +="<li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/88.html\" title=\"内地女赌客在澳门赌场被骗奸\" target=\"_blank\">内地女赌客在澳门赌场被骗奸</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/81.html\" title=\"澳门赌场攻略之博彩公司的秘密\" target=\"_blank\">澳门赌场攻略之博彩公司的秘密</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/73.html\" title=\"澳门赌场攻略之百家乐挑战赛\" target=\"_blank\">澳门赌场攻略之百家乐挑战赛</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/71.html\" title=\"测试你对澳门赌场的认识\" target=\"_blank\">测试你对澳门赌场的认识</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/66.html\" title=\"澳门赌场攻略之百家乐必输之法\" target=\"_blank\">澳门赌场攻略之百家乐必输之法</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/61.html\" title=\"澳门赌场攻略之博彩无压力\" target=\"_blank\">澳门赌场攻略之博彩无压力</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/63.html\" title=\"澳门赌场攻略之21点的五大下注策略\" target=\"_blank\">澳门赌场攻略之21点的五大下注策略</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/56.html\" title=\"澳门赌场另一面——外来大亨\" target=\"_blank\">澳门赌场另一面——外来大亨</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/57.html\" title=\"澳门赌场另一面——黑社会与中介\" target=\"_blank\">澳门赌场另一面——黑社会与中介</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/54.html\" title=\"澳门赌场另一面——洗钱圣地\" target=\"_blank\">澳门赌场另一面——洗钱圣地</a></li><li>·<a target=\"_blank\" title=\"澳门赌场游记之桑拿房\" href=\"http://we.sportscn.com/macaubc/jinghua/52.html\">澳门赌场游记之百花齐放的桑拿房</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/41.html\" title=\"澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】\" target=\"_blank\">澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】</a></li><li>·<a target=\"_blank\" title=\"中国人嗜赌成性 国境线已被各国赌场包围\" href=\"http://we.sportscn.com/macaubc/jinghua/16.html\">中国人嗜赌成性 国境线已被各国赌场包围</a></li>"
     html +="</ul>"
     html +="</div>"
     html +="</div>"
     html +="<DIV class=\"jiudian mt10\">"
-    html +="<DIV class=fm><B>澳门赌场周边酒店</B>"
-    html +="</DIV>"
-    html +="<DIV class=fm_b2>"
-    html +="<UL>"
-    html +="<OL><I><A title=《ZOO》杂志最近裸体网球写真 href=\"viewalbum-2461.html\" target=_blank><IMG style=\"_width: true; _height: true\" alt=《ZOO》杂志最近裸体网球写真 src=\"http://file21.mafengwo.net/M00/3F/0B/wKgB21AR9nTXqLJpAABIvE7Hpdw65.rbook_comment.w240.jpeg\"></A></I>"
-    html +="<span><A title=\"澳门悦榕庄\"  target=_blank>澳门悦榕庄</A> </span></OL>"
-    html +="<LI>·<A title=\"澳门金沙城中心康莱德 [最佳家庭出游酒店]\"  target=_blank>澳门金沙城中心康莱德 [最佳家庭出游酒店] </A> </LI>"
-    html +="<LI>·<A title=\"澳门君悦酒店 [最佳购物酒店] \"  target=_blank>澳门君悦酒店 [最佳购物酒店] </A> </LI>"
-    html +="<LI>·<A title=\"澳门君悦酒店 [最佳温泉/休闲酒店]\" target=_blank>澳门君悦酒店 [最佳温泉/休闲酒店]</A> </LI>"
-    html +="<LI>·<A title=\"澳门银河酒店(Galaxy Macau)\"  target=_blank>澳门银河酒店(Galaxy Macau)</A> </LI>"
-    html +="<LI>·<A title=\"澳门皇都酒店(Royal Hotel)\" target=_blank>澳门皇都酒店(Royal Hotel)</A> </LI>"
-    html +="<LI>·<A title=\"澳门君怡酒店(Grandview Hotel) \" target=_blank>澳门君怡酒店(Grandview Hotel) </A> </LI>"
-    html +="</UL></DIV>"
-    html +="</DIV>"
+    html +="<DIV class=fm><B>澳门赌场周边酒店</B></DIV><DIV class=fm_b2><UL><OL><I><IMG style=\"_width: true; _height: true\" alt=澳门悦榕庄 src=\"http://file21.mafengwo.net/M00/3F/0B/wKgB21AR9nTXqLJpAABIvE7Hpdw65.rbook_comment.w240.jpeg\"></I><span><A title=\"澳门悦榕庄\"  target=_blank>澳门悦榕庄</A> </span></OL><LI>·<A title=\"澳门金沙城中心康莱德 [最佳家庭出游酒店]\"  target=_blank>澳门金沙城中心康莱德 [最佳家庭出游酒店] </A> </LI><LI>·<A title=\"澳门君悦酒店 [最佳购物酒店] \"  target=_blank>澳门君悦酒店 [最佳购物酒店] </A> </LI><LI>·<A title=\"澳门君悦酒店 [最佳温泉/休闲酒店]\" target=_blank>澳门君悦酒店 [最佳温泉/休闲酒店]</A> </LI><LI>·<A title=\"澳门银河酒店(Galaxy Macau)\"  target=_blank>澳门银河酒店(Galaxy Macau)</A> </LI><LI>·<A title=\"澳门皇都酒店(Royal Hotel)\" target=_blank>澳门皇都酒店(Royal Hotel)</A> </LI><LI>·<A title=\"澳门君怡酒店(Grandview Hotel) \" target=_blank>澳门君怡酒店(Grandview Hotel) </A> </LI></UL></DIV></DIV>"
     html +="<DIV class=\"ktss mt10\">"
     html +="<DIV class=fm><B>澳门赌场周边景点</B>"
     html +="</DIV>"
@@ -225,17 +200,17 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
+        for i in range(2,18):
             html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
+        for i in range(2,18):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
+        for i in range(2,18):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -262,17 +237,18 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
 
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
-            html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
+        for i in range(2,18):
+            html +="<A href" \
+                   "=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
+        for i in range(2,18):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,17):
+        for i in range(2,18):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
