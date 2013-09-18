@@ -158,7 +158,7 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     html += "<META name=keywords content=\"澳门赌场,澳门赌场攻略,澳门赌场玩法\"/><META name=description content=\"我们为您提供澳门赌场及其周边景点介绍、酒店服务、机票、住宿旅游攻略，购物体验等服务是您玩转澳门赌场的得力助手！ \"/>"
     html += "<meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\" />"
     html += "<title>澳门赌场_澳门赌场攻略_澳门赌场玩法</title>"
-    html += "<link href=\"http://image.sportscn.com/2010/css/news2013.css\" rel=\"stylesheet\" type=\"text/css\" />"
+    html += "<link href=\"http://image.sportscn.com/2010/css/macau2013.css\" rel=\"stylesheet\" type=\"text/css\" />"
     html += "</head>"
     html += "<body>"
     html += "<DIV class=\"gtop\">"
@@ -200,17 +200,17 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -237,18 +237,18 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
 
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html +="<A href" \
                    "=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,21):
+        for i in range(2,30):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -347,7 +347,7 @@ def getDetailText(data,cateid,data_list1,data_list2,data_list3):
     html+="<LI> </LI></UL><div id=\"vogate_ad_area\"><div class=\"content artical\" id=\"article\">"
     html+="<p style=\"font-size:11px;\">"
 
-    html+="如今的澳门是名副其实的“世界第一赌城”，原先这个称呼的所有者拉斯维加斯已被澳门远远甩在身后。<a href='http://we.sportscn.com/macaubc/'><b>澳门赌场</b></a>在博彩业世界范围内的异军突起也吸引了很多外资老板用巨额资金来澳门建造豪华赌场来分得火热市场的一杯羹。"
+    html+="每天来往澳门的赌客可谓人头攒动，这些数以百万计的游客们看似互不相识其实<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>经营者们早已对他们进行了分类和统计。毫不夸张的说赌场方面对每位“赌客”究竟有多少家底？喜欢什么游戏？早已心知肚明。之所以有如此详尽的资料是因为赌场有着惊人的线人网络。"
     html+="</p>"
     html+="<br/>"
     html+= data[1]
