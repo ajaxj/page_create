@@ -205,7 +205,7 @@ def createPage():
 
 
     #先取出来解码，然后加入标题，内容，页码
-    pagenum = 640
+    pagenum = 700
     for row in data_list1:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news1_data.append(data)
@@ -213,7 +213,7 @@ def createPage():
 
 
     # 玩法
-    pagenum = 640
+    pagenum = 700
     for row in data_list2:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news2_data.append(data)
@@ -221,7 +221,7 @@ def createPage():
         pagenum += 1
 
     #攻略
-    pagenum = 640
+    pagenum = 700
     for row in data_list3:
         data = [row[1].encode('utf-8'),row[2].encode('utf-8'),pagenum]
         news3_data.append(data)
@@ -338,9 +338,73 @@ def createIndexPage():
         print filename,newfilename
         os.rename(os.path.join(path,filename), os.path.join(newpath,newfilename))
 
+#page代表要修改的日期
+def readIndexAndUpdate(page):
+    newpath = 'e:\macao1\d\\'
+    listfile = os.listdir(newpath)
+    list = []
+    for line in listfile:
+        try:
+            file = newpath + line
+            print file
+            filehandler = open(file,'r')    #以读方式打开文件，rb为二进制方式(如图片或可执行文件等)
+            s = filehandler.read()
+            re_str = "<A href=\"http://we.sportscn.com/macaubc/duchang/index"+str(page-1)+".html\">"+str(page-1)+"</A>"
+            new_str = "<A href=\"http://we.sportscn.com/macaubc/duchang/index"+str(page-1)+".html\">"+str(page-1)+"</A><A href=\"http://we.sportscn.com/macaubc/duchang/index"+str(page)+".html\">"+str(page)+"</A>"
+            #print s
+            s = s.replace(re_str,new_str)
+            filehandler.close()
+            file_object = open(file, 'w')
+            file_object.write(s)
+            file_object.close( )
+        except :
+            exit(1)
+
+    newpath = 'e:\macao1\g\\'
+    listfile = os.listdir(newpath)
+    list = []
+    for line in listfile:
+        try:
+            file = newpath + line
+            print file
+            filehandler = open(file,'r')    #以读方式打开文件，rb为二进制方式(如图片或可执行文件等)
+            s = filehandler.read()
+            re_str = "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+str(page-1)+".html\">"+str(page-1)+"</A>"
+            new_str = "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+str(page-1)+".html\">"+str(page-1)+"</A><A href=\"http://we.sportscn.com/macaubc/gonglue/index"+str(page)+".html\">"+str(page)+"</A>"
+            #print s
+            s = s.replace(re_str,new_str)
+            filehandler.close()
+            file_object = open(file, 'w')
+            file_object.write(s)
+            file_object.close( )
+        except :
+            exit(1)
+
+    newpath = 'e:\macao1\w\\'
+    listfile = os.listdir(newpath)
+    list = []
+    for line in listfile:
+        try:
+            file = newpath + line
+            print file
+            filehandler = open(file,'r')    #以读方式打开文件，rb为二进制方式(如图片或可执行文件等)
+            s = filehandler.read()
+            re_str = "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+str(page-1)+".html\">"+str(page-1)+"</A>"
+            new_str = "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+str(page-1)+".html\">"+str(page-1)+"</A><A href=\"http://we.sportscn.com/macaubc/wanfa/index"+str(page)+".html\">"+str(page)+"</A>"
+            #print s
+            s = s.replace(re_str,new_str)
+            filehandler.close()
+            file_object = open(file, 'w')
+            file_object.write(s)
+            file_object.close( )
+        except :
+            exit(1)
+
+
 
 if __name__ == '__main__':
-    # createIndexPage()
+    createIndexPage()
+    # readIndexAndUpdate(33)
     # 1
     # getDatabaseForList109()
     # getDatabaseForList112()
@@ -351,16 +415,6 @@ if __name__ == '__main__':
     # getDatabaseForList111()
     # getDatabaseForList113()
 
-    createPage()
-
-
-
-
-
-
-
-
-
-
+    # createPage()
 
 
