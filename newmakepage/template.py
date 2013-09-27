@@ -200,17 +200,17 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -237,18 +237,18 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
 
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html +="<A href" \
                    "=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,33):
+        for i in range(2,37):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -347,7 +347,7 @@ def getDetailText(data,cateid,data_list1,data_list2,data_list3):
     html+="<LI> </LI></UL><div id=\"vogate_ad_area\"><div class=\"content artical\" id=\"article\">"
     html+="<p style=\"font-size:11px;\">"
 
-    html+="在众多<A href=\"http://we.sportscn.com/macaubc/\"><STRONG>澳门赌场</STRONG></A>中，最老牌的当属澳门博彩股份有限公司，它在澳门经营19间赌场及6间独立角子机场。2004年，澳博股份全年纯利有342亿澳门币。其后，澳博成立了一间新公司澳门博彩控股有限公司，且为其在香港交易所上市作出全面的准备。2008年7月7日，“十姑娘”何婉琪入禀香港高等法院申请司法复核，企图制止澳博于7月10日在香港挂牌，但终告失败，澳博最后成功在香港上市。"
+    html+="作为世界第一的赌城，澳门境内的赌场星罗棋布。其中年头最久最出名的就是葡京赌场，它可谓是<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>里的带头大哥，葡京是由一代赌王何鸿燊所建立，是澳门税收的主要来源。娱乐场内设有下列各种博彩项目：百家乐，廿一点，轮盘，法国轮盘，番雄，大小，摇银机。不设入场券，可自由进出，但18岁以下未成年人及21岁以下本地人不准进入！"
     html+="</p>"
     html+="<br/>"
     html+= data[1]
