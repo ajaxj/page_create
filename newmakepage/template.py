@@ -95,7 +95,7 @@ def getHomeText(data_list1,data_list2,data_list3):
     html +="</div>"
     html +="<div class=\"fm_b2\">"
     html +="<ul>"
-    html +="<li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/88.html\" title=\"内地女赌客在澳门赌场被骗奸\" target=\"_blank\">内地女赌客在澳门赌场被骗奸</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/81.html\" title=\"澳门赌场攻略之博彩公司的秘密\" target=\"_blank\">澳门赌场攻略之博彩公司的秘密</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/73.html\" title=\"澳门赌场攻略之百家乐挑战赛\" target=\"_blank\">澳门赌场攻略之百家乐挑战赛</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/71.html\" title=\"测试你对澳门赌场的认识\" target=\"_blank\">测试你对澳门赌场的认识</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/66.html\" title=\"澳门赌场攻略之百家乐必输之法\" target=\"_blank\">澳门赌场攻略之百家乐必输之法</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/61.html\" title=\"澳门赌场攻略之博彩无压力\" target=\"_blank\">澳门赌场攻略之博彩无压力</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/63.html\" title=\"澳门赌场攻略之21点的五大下注策略\" target=\"_blank\">澳门赌场攻略之21点的五大下注策略</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/56.html\" title=\"澳门赌场另一面——外来大亨\" target=\"_blank\">澳门赌场另一面——外来大亨</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/57.html\" title=\"澳门赌场另一面——黑社会与中介\" target=\"_blank\">澳门赌场另一面——黑社会与中介</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/54.html\" title=\"澳门赌场另一面——洗钱圣地\" target=\"_blank\">澳门赌场另一面——洗钱圣地</a></li><li>·<a target=\"_blank\" title=\"澳门赌场游记之桑拿房\" href=\"http://we.sportscn.com/macaubc/jinghua/52.html\">澳门赌场游记之百花齐放的桑拿房</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/41.html\" title=\"澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】\" target=\"_blank\">澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】</a></li><li>·<a target=\"_blank\" title=\"中国人嗜赌成性 国境线已被各国赌场包围\" href=\"http://we.sportscn.com/macaubc/jinghua/16.html\">中国人嗜赌成性 国境线已被各国赌场包围</a></li>"
+    html +="<li>·<a target=\"_blank\" title=\"老千集团在澳门赌场诈骗300万\" href=\"http://we.sportscn.com/macaubc/jinghua/149.html\">老千集团在澳门赌场诈骗300万</a></li><li>·<a target=\"_blank\" title=\"澳门赌场富二代何猷龙被邀去俄罗斯开赌场\" href=\"http://we.sportscn.com/macaubc/jinghua/142.html\">澳门赌场富二代何猷龙被邀去俄罗斯开赌场</a></li><li>·<a target=\"_blank\" title=\"澳门赌场8月份前11天日均收益9亿\" href=\"http://we.sportscn.com/macaubc/jinghua/129.html\">澳门赌场8月份前11天日均收益9亿</a></li><li>·<a target=\"_blank\" title=\"沉迷澳门赌场二十年的赌徒立志戒赌\" href=\"http://we.sportscn.com/macaubc/jinghua/107.html\">沉迷澳门赌场二十年的赌徒立志戒赌</a></li><li>·<a target=\"_blank\" title=\"澳门赌场之荷官血泪史\" href=\"http://we.sportscn.com/macaubc/jinghua/95.html\">澳门赌场之荷官血泪史</a></li><li>·<a target=\"_blank\" title=\"澳门赌场攻略之博彩公司的秘密\" href=\"http://we.sportscn.com/macaubc/jinghua/81.html\">澳门赌场攻略之博彩公司的秘密</a></li><li>·<a target=\"_blank\" title=\"澳门赌场攻略之百家乐必输之法\" href=\"http://we.sportscn.com/macaubc/jinghua/66.html\">澳门赌场攻略之百家乐必输之法</a></li><li>·<a target=\"_blank\" title=\"澳门赌场攻略之博彩无压力\" href=\"http://we.sportscn.com/macaubc/jinghua/61.html\">澳门赌场攻略之博彩无压力</a></li><li>·<a target=\"_blank\" title=\"澳门赌场另一面&mdash;&mdash;外来大亨\" href=\"http://we.sportscn.com/macaubc/jinghua/56.html\">澳门赌场另一面&mdash;&mdash;外来大亨</a></li><li>·<a target=\"_blank\" title=\"澳门赌场另一面&mdash;&mdash;黑社会与中介\" href=\"http://we.sportscn.com/macaubc/jinghua/57.html\">澳门赌场另一面&mdash;&mdash;黑社会与中介</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/52.html\" title=\"澳门赌场游记之桑拿房\" target=\"_blank\">澳门赌场游记之百花齐放的桑拿房</a></li><li>·<a target=\"_blank\" title=\"澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】\" href=\"http://we.sportscn.com/macaubc/jinghua/41.html\">澳门赌场80%收入的来源 VIP贵宾厅的见闻【图】</a></li><li>·<a href=\"http://we.sportscn.com/macaubc/jinghua/16.html\" title=\"中国人嗜赌成性 国境线已被各国赌场包围\" target=\"_blank\">中国人嗜赌成性 国境线已被各国赌场包围</a></li>"
     html +="</ul>"
     html +="</div>"
     html +="</div>"
@@ -200,17 +200,17 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -237,18 +237,18 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
 
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html +="<A href" \
                    "=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,37):
+        for i in range(2,46):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -347,7 +347,7 @@ def getDetailText(data,cateid,data_list1,data_list2,data_list3):
     html+="<LI> </LI></UL><div id=\"vogate_ad_area\"><div class=\"content artical\" id=\"article\">"
     html+="<p style=\"font-size:11px;\">"
 
-    html+="作为世界第一的赌城，澳门境内的赌场星罗棋布。其中年头最久最出名的就是葡京赌场，它可谓是<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>里的带头大哥，葡京是由一代赌王何鸿燊所建立，是澳门税收的主要来源。娱乐场内设有下列各种博彩项目：百家乐，廿一点，轮盘，法国轮盘，番雄，大小，摇银机。不设入场券，可自由进出，但18岁以下未成年人及21岁以下本地人不准进入！"
+    html+="赌场的规则设计原则就是这样，无论看起来多么诱人，赌客下注收益的数学期望都是负值，也就是说，总是对赌场有利。因为有大量的人赌，所以<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>的收支结果会很接近这个值， 据说概率是起源于赌场的学问，但是它的价值已经远远超出了赌博。"
     html+="</p>"
     html+="<br/>"
     html+= data[1]
