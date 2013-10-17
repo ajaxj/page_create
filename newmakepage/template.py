@@ -200,17 +200,17 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
     #html += "<DIV><STRONG>1</STRONG><A href=\"http://we.sportscn.com/category-3-page-2.html\">2</A><A href=\"http://we.sportscn.com/category-3-page-3.html\">3</A><A href=\"http://we.sportscn.com/category-3-page-4.html\">4</A><A href=\"http://we.sportscn.com/category-3-page-5.html\">5</A><A href=\"http://we.sportscn.com/category-3-page-6.html\">6</A><A href=\"http://we.sportscn.com/category-3-page-7.html\">7</A><A href=\"http://we.sportscn.com/category-3-page-8.html\">8</A><A href=\"http://we.sportscn.com/category-3-page-9.html\">9</A><A href=\"http://we.sportscn.com/category-3-page-10.html\">10</A><A href=\"http://we.sportscn.com/category-3-page-36.html\" target=_self>...36</A><A class=next href=\"http://we.sportscn.com/category-3-page-2.html\">下一页</A></DIV></DIV>"
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html +="<A href=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -237,18 +237,18 @@ def getListseoText(cateid,data_list,data_list2,data_list3):
 
     if cateid == 1:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/duchang/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html +="<A href" \
                    "=\"http://we.sportscn.com/macaubc/duchang/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     elif cateid ==2:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/wanfa/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html += "<A href=\"http://we.sportscn.com/macaubc/wanfa/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html +="</DIV></DIV>"
     else:
         html += "<DIV><a href=\"http://we.sportscn.com/macaubc/gonglue/index.html\"><STRONG>1</STRONG></a>"
-        for i in range(2,46):
+        for i in range(2,52):
             html += "<A href=\"http://we.sportscn.com/macaubc/gonglue/index"+ str(i) + ".html\">" +str(i) + "</A>"
         html += "</DIV></DIV>"
 
@@ -347,7 +347,7 @@ def getDetailText(data,cateid,data_list1,data_list2,data_list3):
     html+="<LI> </LI></UL><div id=\"vogate_ad_area\"><div class=\"content artical\" id=\"article\">"
     html+="<p style=\"font-size:11px;\">"
 
-    html+="赌场的规则设计原则就是这样，无论看起来多么诱人，赌客下注收益的数学期望都是负值，也就是说，总是对赌场有利。因为有大量的人赌，所以<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>的收支结果会很接近这个值， 据说概率是起源于赌场的学问，但是它的价值已经远远超出了赌博。"
+    html+="<a href=\"http://we.sportscn.com/macaubc/\"><b>澳门赌场</b></a>26个贵宾厅中汇集了来自世界各地的豪赌巨客，一个葡京赌场，更像一扇解读澳门的窗口，每天吸引着千千万万名国内外游客，不仅成为澳门一大景观，都雄居世界所有赌场之首。"
     html+="</p>"
     html+="<br/>"
     html+= data[1]
