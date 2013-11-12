@@ -1,0 +1,39 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript"> 
+ var SysSecond; 
+ var InterValObj; 
+ $(document).ready(function() { 
+	SysSecond  = $('.saishi_bottom').html();
+	SysSecond  = SysSecond.split("<br");
+	SysSecond = SysSecond[0].replace("比赛时间：","");
+	SysSecond_arr  = SysSecond.split("日");
+	
+	var s1 = SysSecond_arr[0];
+	var s2 = SysSecond_arr[1];
+	SysSecond = s1.replace("年","/").replace("月","/") + " " + s2 + ":00";
+	
+	var date = new Date(SysSecond);
+
+	SysSecond = date.getTime();
+		
+   var _time =  SysSecond/1000 - Math.round(new Date().getTime()/1000);
+  SysSecond = _time; 
+
+  InterValObj = window.setInterval(SetRemainTime, 1000); 
+ }); 
+ 
+ function SetRemainTime() { 
+  if (SysSecond > 0) { 
+   SysSecond = SysSecond - 1; 
+   var second = Math.floor(SysSecond % 60);               
+   var minite = Math.floor((SysSecond / 60) % 60);    
+   var hour = Math.floor((SysSecond / 3600) % 24);     
+   var day = Math.floor((SysSecond / 3600) / 24);        
+   $(".saishi_time").html("<font>" + day + "</font>天<font>" + hour + "</font>时<font>" + minite +"</font>分<font>" + second + "秒");
+   
+  } else {
+   window.clearInterval(InterValObj); 
+  
+  } 
+ } 
+</script>  

@@ -1,0 +1,424 @@
+1380198.html  1381097.html  1381803.html  1382401.html  1383646.html  1387587.html  1390011.html
+1380199.html  1381098.html  1381804.html  1382402.html  1383647.html  1387639.html  1390012.html
+1380200.html  1381099.html  1381805.html  1382403.html  1383648.html  1387640.html  1390013.html
+1380201.html  1381100.html  1381806.html  1382404.html  1383649.html  1387641.html  1390014.html
+1380202.html  1381106.html  1381817.html  1382405.html  1383650.html  1387642.html  1390015.html
+1380203.html  1381107.html  1381818.html  1382406.html  1383666.html  1387677.html  1390016.html
+1380226.html  1381108.html  1381819.html  1382407.html  1383677.html  1387678.html  1390027.html
+1380229.html  1381109.html  1381820.html  1382408.html  1383682.html  1387679.html  1390028.html
+1380230.html  1381110.html  1381821.html  1382409.html  1383683.html  1387707.html  1390029.html
+1380233.html  1381111.html  1381822.html  1382414.html  1383684.html  1387708.html  1390030.html
+1380234.html  1381112.html  1381823.html  1382421.html  1383685.html  1387746.html  1390031.html
+1380236.html  1381113.html  1381824.html  1382422.html  1383703.html  1387747.html  1390039.html
+1380237.html  1381114.html  1381825.html  1382423.html  1383704.html  1387748.html  1390040.html
+1380238.html  1381115.html  1381826.html  1382443.html  1383738.html  1387798.html  1390041.html
+1380239.html  1381116.html  1381827.html  1382444.html  1383739.html  1387799.html  1390042.html
+1380240.html  1381124.html  1381828.html  1382445.html  1383746.html  1387800.html  1390043.html
+1380241.html  1381125.html  1381829.html  1382446.html  1383756.html  1387801.html  1390044.html
+1380242.html  1381126.html  1381830.html  1382447.html  1383760.html  1387802.html  1390045.html
+1380243.html  1381127.html  1381831.html  1382448.html  1383761.html  1387803.html  1390065.html
+1380244.html  1381128.html  1381832.html  1382464.html  1383765.html  1387805.html  1390072.html
+1380245.html  1381129.html  1381833.html  1382465.html  1383775.html  1387862.html  1390083.html
+1380246.html  1381130.html  1381834.html  1382466.html  1383776.html  1387891.html  1390084.html
+1380247.html  1381131.html  1381835.html  1382467.html  1383777.html  1387892.html  1390085.html
+1380248.html  1381132.html  1381836.html  1382468.html  1383805.html  1387935.html  1390099.html
+1380249.html  1381134.html  1381837.html  1382496.html  1383809.html  1387936.html  1390102.html
+1380250.html  1381135.html  1381838.html  1382497.html  1383834.html  1387937.html  1390103.html
+1380283.html  1381147.html  1381839.html  1382505.html  1383848.html  1387938.html  1390104.html
+1380285.html  1381148.html  1381840.html  1382509.html  1383922.html  1387995.html  1390113.html
+1380288.html  1381149.html  1381841.html  1382520.html  1383923.html  1388030.html  1390132.html
+1380290.html  1381150.html  1381842.html  1382521.html  1384015.html  1388032.html  1390133.html
+1380292.html  1381161.html  1381855.html  1382542.html  1384016.html  1388035.html  1390134.html
+1380294.html  1381162.html  1381856.html  1382543.html  1384017.html  1388040.html  1390139.html
+1380297.html  1381163.html  1381857.html  1382546.html  1384138.html  1388042.html  1390145.html
+1380301.html  1381164.html  1381858.html  1382547.html  1384139.html  1388061.html  1390190.html
+1380310.html  1381165.html  1381859.html  1382548.html  1384165.html  1388068.html  1390191.html
+1380312.html  1381193.html  1381860.html  1382554.html  1384195.html  1388069.html  1390192.html
+1380331.html  1381194.html  1381861.html  1382555.html  1384196.html  1388070.html  1390194.html
+1380333.html  1381195.html  1381862.html  1382562.html  1384231.html  1388080.html  1390195.html
+1380334.html  1381196.html  1381863.html  1382592.html  1384251.html  1388081.html  1390207.html
+1380336.html  1381197.html  1381865.html  1382669.html  1384252.html  1388114.html  1390208.html
+1380337.html  1381198.html  1381866.html  1382670.html  1384270.html  1388158.html  1390209.html
+1380338.html  1381199.html  1381867.html  1382671.html  1384319.html  1388218.html  1390243.html
+1380342.html  1381200.html  1381868.html  1382672.html  1384393.html  1388220.html  1390244.html
+1380344.html  1381201.html  1381869.html  1382673.html  1384450.html  1388229.html  1390245.html
+1380345.html  1381204.html  1381870.html  1382674.html  1384451.html  1388246.html  1390246.html
+1380366.html  1381205.html  1381871.html  1382675.html  1384452.html  1388265.html  1390247.html
+1380367.html  1381206.html  1381872.html  1382676.html  1384491.html  1388270.html  1390255.html
+1380368.html  1381207.html  1381873.html  1382678.html  1384504.html  1388276.html  1390256.html
+1380369.html  1381208.html  1381874.html  1382680.html  1384562.html  1388277.html  1390257.html
+1380370.html  1381209.html  1381875.html  1382682.html  1384563.html  1388297.html  1390258.html
+1380371.html  1381210.html  1381876.html  1382683.html  1384575.html  1388298.html  1390264.html
+1380372.html  1381211.html  1381877.html  1382685.html  1384619.html  1388299.html  1390277.html
+1380388.html  1381212.html  1381878.html  1382687.html  1384709.html  1388303.html  1390278.html
+1380413.html  1381213.html  1381879.html  1382688.html  1384710.html  1388304.html  1390279.html
+1380430.html  1381214.html  1381880.html  1382689.html  1384774.html  1388313.html  1390290.html
+1380431.html  1381215.html  1381881.html  1382691.html  1384779.html  1388317.html  1390291.html
+1380432.html  1381216.html  1381882.html  1382693.html  1384780.html  1388322.html  1390294.html
+1380433.html  1381217.html  1381883.html  1382695.html  1384781.html  1388334.html  1390295.html
+1380441.html  1381218.html  1381884.html  1382697.html  1384784.html  1388335.html  1390296.html
+1380468.html  1381229.html  1381885.html  1382699.html  1384799.html  1388354.html  1390297.html
+1380469.html  1381246.html  1381886.html  1382700.html  1384834.html  1388355.html  1390298.html
+1380470.html  1381248.html  1381887.html  1382701.html  1384866.html  1388356.html  1390311.html
+1380477.html  1381250.html  1381888.html  1382702.html  1384899.html  1388366.html  1390312.html
+1380478.html  1381251.html  1381889.html  1382703.html  1384908.html  1388369.html  1390313.html
+1380479.html  1381262.html  1381923.html  1382704.html  1384951.html  1388370.html  1390314.html
+1380488.html  1381268.html  1381924.html  1382705.html  1384952.html  1388375.html  1390320.html
+1380489.html  1381269.html  1381925.html  1382706.html  1384953.html  1388377.html  1390321.html
+1380490.html  1381270.html  1381926.html  1382707.html  1384954.html  1388378.html  1390322.html
+1380491.html  1381271.html  1381927.html  1382708.html  1385044.html  1388382.html  1390323.html
+1380492.html  1381272.html  1381928.html  1382709.html  1385155.html  1388449.html  1390324.html
+1380493.html  1381273.html  1381929.html  1382710.html  1385156.html  1388450.html  1390328.html
+1380494.html  1381274.html  1381930.html  1382711.html  1385182.html  1388451.html  1390329.html
+1380496.html  1381275.html  1381931.html  1382712.html  1385228.html  1388457.html  1390330.html
+1380503.html  1381276.html  1381932.html  1382713.html  1385240.html  1388475.html  1390331.html
+1380504.html  1381277.html  1381933.html  1382714.html  1385241.html  1388476.html  1390332.html
+1380505.html  1381278.html  1381934.html  1382715.html  1385242.html  1388513.html  1390334.html
+1380506.html  1381279.html  1381935.html  1382716.html  1385245.html  1388514.html  1390335.html
+1380507.html  1381290.html  1381936.html  1382717.html  1385268.html  1388515.html  1390336.html
+1380508.html  1381297.html  1381937.html  1382718.html  1385282.html  1388516.html  1390337.html
+1380509.html  1381298.html  1381938.html  1382719.html  1385290.html  1388543.html  1390341.html
+1380520.html  1381313.html  1381939.html  1382720.html  1385294.html  1388544.html  1390342.html
+1380524.html  1381322.html  1381940.html  1382721.html  1385299.html  1388545.html  1390343.html
+1380525.html  1381326.html  1381941.html  1382722.html  1385300.html  1388547.html  1390344.html
+1380526.html  1381327.html  1381942.html  1382723.html  1385319.html  1388581.html  1390345.html
+1380527.html  1381335.html  1381958.html  1382724.html  1385322.html  1388582.html  1390351.html
+1380528.html  1381336.html  1381959.html  1382725.html  1385323.html  1388583.html  1390352.html
+1380529.html  1381337.html  1381960.html  1382726.html  1385350.html  1388584.html  1390353.html
+1380530.html  1381338.html  1381961.html  1382727.html  1385356.html  1388585.html  1390358.html
+1380536.html  1381354.html  1381962.html  1382825.html  1385357.html  1388586.html  1390359.html
+1380537.html  1381355.html  1381963.html  1382826.html  1385404.html  1388588.html  1390372.html
+1380538.html  1381356.html  1381964.html  1382827.html  1385421.html  1388589.html  1390373.html
+1380539.html  1381357.html  1381965.html  1382828.html  1385430.html  1388590.html  1390374.html
+1380540.html  1381358.html  1381966.html  1382829.html  1385431.html  1388604.html  1390375.html
+1380543.html  1381359.html  1381967.html  1382830.html  1385432.html  1388611.html  1390379.html
+1380544.html  1381360.html  1381968.html  1382831.html  1385442.html  1388612.html  1390380.html
+1380545.html  1381370.html  1381969.html  1382832.html  1385454.html  1388614.html  1390394.html
+1380546.html  1381371.html  1381970.html  1382833.html  1385457.html  1388624.html  1390395.html
+1380547.html  1381372.html  1381971.html  1382834.html  1385480.html  1388625.html  1390417.html
+1380548.html  1381373.html  1381972.html  1382835.html  1385489.html  1388636.html  1390418.html
+1380549.html  1381381.html  1381992.html  1382887.html  1385599.html  1388637.html  1390419.html
+1380550.html  1381382.html  1381993.html  1382888.html  1385622.html  1388669.html  1390420.html
+1380551.html  1381391.html  1381994.html  1382889.html  1385678.html  1388682.html  1390421.html
+1380552.html  1381392.html  1381995.html  1382890.html  1385679.html  1388683.html  1390422.html
+1380553.html  1381397.html  1381996.html  1382891.html  1385706.html  1388706.html  1390423.html
+1380554.html  1381398.html  1381997.html  1382892.html  1385764.html  1388713.html  1390457.html
+1380555.html  1381399.html  1381998.html  1382906.html  1385765.html  1388714.html  1390458.html
+1380558.html  1381405.html  1381999.html  1382909.html  1385809.html  1388734.html  1390488.html
+1380561.html  1381406.html  1382000.html  1382914.html  1385810.html  1388736.html  1390489.html
+1380564.html  1381412.html  1382001.html  1382915.html  1385811.html  1388737.html  1390490.html
+1380575.html  1381413.html  1382002.html  1382926.html  1385820.html  1388752.html  1390491.html
+1380591.html  1381418.html  1382008.html  1382927.html  1385826.html  1388764.html  css
+1380592.html  1381419.html  1382009.html  1382928.html  1385839.html  1388765.html  guangzhouhengda
+1380593.html  1381420.html  1382010.html  1382929.html  1385880.html  1388766.html  guangzhouhengdazuqiujulebu
+1380594.html  1381421.html  1382011.html  1382930.html  1385893.html  1388784.html  hengdafc.html
+1380606.html  1381422.html  1382012.html  1382931.html  1385894.html  1388807.html  hengdafc.php
+1380607.html  1381424.html  1382013.html  1382932.html  1385908.html  1388808.html  hengdashijubei
+1380620.html  1381425.html  1382029.html  1382958.html  1385910.html  1388814.html  hengdashipin
+1380624.html  1381426.html  1382030.html  1382959.html  1385917.html  1388815.html  hengdayaguan
+1380632.html  1381432.html  1382031.html  1382960.html  1385918.html  1388820.html  hengdazuqiu
+1380633.html  1381433.html  1382046.html  1382961.html  1385919.html  1388849.html  images
+1380662.html  1381434.html  1382054.html  1382962.html  1385927.html  1388850.html  index1.html
+1380663.html  1381435.html  1382055.html  1382968.html  1385928.html  1388855.html  index.html
+1380664.html  1381440.html  1382072.html  1382969.html  1385929.html  1388858.html
+1380665.html  1381444.html  1382073.html  1382970.html  1385937.html  1388859.html
+1380671.html  1381446.html  1382105.html  1382971.html  1385942.html  1388860.html
+1380672.html  1381450.html  1382106.html  1382972.html  1385943.html  1388879.html
+1380673.html  1381451.html  1382107.html  1382973.html  1385949.html  1388883.html
+1380697.html  1381452.html  1382108.html  1382974.html  1385950.html  1388912.html
+[www@storage1042 guangzhouhengda]$ cd ..
+[www@storage1042 we]$ ls
+1.html                        batch.seccode.php       favicon_081014.ico           robots.txt
+1.php                         batch.tagshow.php       favicon.ico                  rss_360.php
+3.php.closephp                batch.thumb.php         fb.php                       rss_spcn.php
+404.html                      batch.toolbar.php       flash                        shijiebei
+admin                         batch.upload.php        function                     siteban2.txt
+admincp.php                   bdsitemap.txt           googlea41e156df62204bd.html  siteban.txt
+aoyun.php                     bocai                   gu1                          siteban.txt1
+api                           cache                   guangzhouhengda              sitemap1.xml
+attachments                   category2010.php        historylist.php              sitemap.xml
+attachments1                  category2013.php        history.php                  source
+baidu_verify_PSwguXJLge.html  category.php            http.docx                    spacecp.php
+baidu.xml                     category.php.bak090622  images                       spcnlogin.php
+batch.comment.php             class                   include                      sportscn
+batch.common.php              clear.php               index.html                   styles
+batch.common.php.130503       commerical_index.js     index.php                    tag.php
+batch.conv.php                common.php              js                           templates
+batch.download.php            config.php              language                     uc_client
+batch.insertimage.php         crossdomain.xml         log                          user
+batch.javascript.php          css                     login.php                    viewcomment.php
+batch.jsutf.php               customizejs.php         mj                           viewm500.php
+batch.login.php               customize.php           m.php                        viewnews2010.php
+batch.login.php.old           customizeutf8.php       news_footer.php              viewnews.php
+batch.manage.php              custpage.php            newslogin.php                viewold.php
+batch.panel.new.php           data                    news_sq.php                  viewpage.php
+batch.panel.php               do.php                  pagecategory.php             viewpoker.php
+batch.search.php.bak          endcp.php               pluginlogin.php              wc2010_news3.php
+batch.search.php.close121127  endcp.php.110210        pokercategory.php            webscan_360_cn.html
+batch.secboard.php            endcp.php.bak           poll.php                     涓嶇敤macaubc-1
+[www@storage1042 we]$ cp guangzhouhengda/hengda
+hengdafc.html   hengdafc.php    hengdashijubei  hengdashipin    hengdayaguan    hengdazuqiu     
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.
+hengdafc.html  hengdafc.php   
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html 
+Display all 112 possibilities? (y or n)
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/
+default          softsea          sportscn         sportscn-110217  
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn
+sportscn         sportscn-110217  
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn/
+Display all 205 possibilities? (y or n)
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn/hea
+header.html.php              health_newslist1_r.html.php  health_shop.html.php
+health_bbs.html.php          health_newslist2.html.php    health_top.html.php
+health_footer.html.php       health_newslist2_r.html.php  health_top_r.html.php
+health_header.html.php       health_newslist3.html.php    health_wb.html.php
+health_newslist1.html.php    health_newslist3_r.html.php  
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn/guangzhouhengda
+guangzhouhengda_fc.html.php  guangzhouhengda.html.php     
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn/guangzhouhengda
+guangzhouhengda_fc.html.php  guangzhouhengda.html.php     
+[www@storage1042 we]$ cp guangzhouhengda/hengdafc.html templates/sportscn/guangzhouhengda_fc.html.php 
+[www@storage1042 we]$ cd templates/sportscn/
+[www@storage1042 sportscn]$ ls guangzhouhengda
+guangzhouhengda_fc.html.php  guangzhouhengda.html.php     
+[www@storage1042 sportscn]$ ls guangzhouhengda_fc.html.php 
+guangzhouhengda_fc.html.php
+[www@storage1042 sportscn]$ rm guangzhouhengda_fc.html.php 
+[www@storage1042 sportscn]$ ln -s /home/w guangzhouhengda_fc.html.php 
+wget-log  www       
+[www@storage1042 sportscn]$ ln -s /home/w guangzhouhengda_fc.html.php 
+wget-log  www       
+[www@storage1042 sportscn]$ ln -s /home/www/ guangzhouhengda_fc.html.php 
+13075574591.dat      .bash_history        gettags.sh           libexec              sportscn7
+2010.sql             .bash_logout         gettopcai.sh         libexec.zip          .ssh
+angel.php            .bash_profile        .gtkrc               nginx.conf           tm_050519.sql.gz
+ask                  .bashrc              hengdafc.php         oddsid.xls           uchome100402.tar.gz
+ask101119.tar.gz     bbs100402.tar.gz     .kde                 spcnshop.tar.gz      we100402.tar.gz
+auto_config_apt.sh   getmacus.sh          khb.zip              sportscn             
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn guangzhouhengda_fc.html.php 
+sportscn   sportscn7  
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn guangzhouhengda_fc.html.php 
+sportscn   sportscn7  
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn/we/gu guangzhouhengda_fc.html.php 
+gu1              guangzhouhengda  
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn/we/guangzhouhengda/hengda guangzhouhengda_fc.html.php 
+hengdafc.html   hengdafc.php    hengdashijubei  hengdashipin    hengdayaguan    hengdazuqiu     
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn/we/guangzhouhengda/hengda guangzhouhengda_fc.html.php 
+hengdafc.html   hengdafc.php    hengdashijubei  hengdashipin    hengdayaguan    hengdazuqiu     
+[www@storage1042 sportscn]$ ln -s /home/www/sportscn/we/guangzhouhengda/hengdafc.html guangzhouhengda_fc.html.php 
+[www@storage1042 sportscn]$ ls -l
+total 1284
+-rw-r--r--    1 www      www           421 Feb 17  2011 2010indextopnews.html.php
+-rw-r--r--    1 www      www          2562 Nov  8 17:21 2013seo_shijiebei_guess.html.php
+-rw-r--r--    1 www      www         18208 Nov  8 13:46 2013seo_shijiebei.html.php
+-rw-r--r--    1 www      www          4789 Nov  8 17:21 2013seo_shijiebei_pic.html.php
+-rw-r--r--    1 www      www          3964 Jul 18  2011 365_header.html.php
+-rw-r--r--    1 www      www          1216 Jul 21  2011 365_newslist1.html.php
+-rw-r--r--    1 www      www          3752 Jul 18  2011 365_newslist.html.php
+-rw-r--r--    1 www      www           485 Jul 18  2011 365_topnews.html.php
+-rw-r--r--    1 www      www         13174 Jul 30  2012 aoyun_bottom.html.php
+-rw-r--r--    1 www      www          4306 Jul 26  2012 aoyun_category.html.php
+-rw-r--r--    1 www      www            42 Jul 26  2012 aoyun_goal.html.php
+-rw-r--r--    1 www      www          1503 Jul 17  2012 aoyun_header.html.php
+-rw-r--r--    1 www      www          7900 Aug 13  2012 aoyun_middle.html.php
+-rw-r--r--    1 www      www         10245 Aug  8  2012 aoyun_today.html.php
+-rw-r--r--    1 www      www          3229 Aug  8  2012 aoyun_topnews.html.php
+-rw-r--r--    1 www      www           324 Jul 26  2012 aoyun_topnewslist.html.php
+-rw-r--r--    1 www      www          4992 Dec  5  2012 bb2012_bottom.html.php
+-rw-r--r--    1 www      www          1416 Nov 28  2012 bb2012_top.html.php
+-rw-r--r--    1 www      www          3504 Feb 17  2011 bb_bbs.html.php
+-rw-r--r--    1 www      www          3271 Feb 17  2011 bb_chinastar.html.php
+-rw-r--r--    1 www      www          1600 Feb 17  2011 bb_hot.html.php
+-rw-r--r--    1 www      www          3039 Feb 17  2011 bb_news.html.php
+-rw-r--r--    1 www      www          2463 Apr 25  2012 bb_sneaker.html.php
+-rw-r--r--    1 www      www          2083 Feb 17  2011 bb_star.html.php
+-rw-r--r--    1 www      www           553 Feb 17  2011 bb_tag.html.php
+-rw-r--r--    1 www      www          2412 Mar 15  2012 bb_yao.html.php
+-rw-r--r--    1 www      www          3524 Jun 28 14:54 center_category2013.html.php
+-rw-r--r--    1 www      www          3493 Mar  5  2013 center_category.html.php
+-rw-r--r--    1 www      www          1588 Apr  8  2013 center_header.html.php
+-rw-r--r--    1 www      www           941 Mar 31  2012 center_index.html.php
+drwxr-xr-x    2 www      www          4096 Jun 18  2009 css
+-rw-r--r--    1 www      www          1107 Oct  9 20:15 diving_footer.html.php
+-rw-r--r--    1 www      www           942 Feb 17  2011 diving_header.html.php
+-rw-r--r--    1 www      www           854 Feb 17  2011 diving_index.html.php
+-rw-r--r--    1 www      www          7010 Feb 17  2011 diving_mainl.html.php
+-rw-r--r--    1 www      www          9181 Feb 17  2011 diving_mainm.html.php
+-rw-r--r--    1 www      www          4039 Feb 17  2011 diving_mainr.html.php
+-rw-r--r--    1 www      www           867 May 22  2012 euro_bbslist.html.php
+-rw-r--r--    1 www      www          6868 Jun 21  2012 euro_newslist.html.php
+-rw-r--r--    1 www      www           195 Jun 13  2012 euro_topnews.html.php
+-rw-r--r--    1 www      www          2074 Dec  5  2012 fb2010_footer.html.php
+-rw-r--r--    1 www      www          3111 Nov  9  2012 fb2010_header.html.php
+-rw-r--r--    1 www      www           923 Feb 17  2011 fb2010_newslist1.html.php
+-rw-r--r--    1 www      www          1652 May 10 15:13 fb2010_newslist2.html.php
+-rw-r--r--    1 www      www          1655 Feb 29  2012 fb2010_newslist3.html.php
+-rw-r--r--    1 www      www          5431 Apr 19  2012 fb2010_newslist4.html.php
+-rw-r--r--    1 www      www          6006 Aug 16  2012 fb2010_topnews.html.php
+-rw-r--r--    1 www      www          5546 Aug 31  2012 fbchina_2012bbs.html.php
+-rw-r--r--    1 www      www          5437 May 14 10:53 fbchina_2012header.html.php
+-rw-r--r--    1 www      www          2715 May 10 17:10 fbchina_2012list2.html.php
+-rw-r--r--    1 www      www          1607 May 13 12:08 fbchina_2012list.html.php
+-rw-r--r--    1 www      www           822 Aug 28  2012 fbchina_2012top.html.php
+-rw-r--r--    1 www      www          1537 Feb 17  2011 fbchina_bbs.html.php
+-rw-r--r--    1 www      www          4791 Feb 17  2011 fbchina_blog.html.php
+-rw-r--r--    1 www      www          1337 Feb 17  2011 fbchina_group.html.php
+-rw-r--r--    1 www      www          1645 Feb 17  2011 fbchina_image.html.php
+-rw-r--r--    1 www      www          4152 Feb 17  2011 fbchina_news.html.php
+-rw-r--r--    1 www      www             8 Feb 17  2011 fbchina_tvinfo.html.php
+-rw-r--r--    1 www      www          1495 Feb 17  2011 fbchina_zt.html.php
+-rw-r--r--    1 www      www          2338 Feb 17  2011 footer.html.php
+-rw-r--r--    1 www      www           828 Nov  2  2012 golf_2010album.html.php
+-rw-r--r--    1 www      www           370 Mar 19  2013 golf_2010blog.html.php
+-rw-r--r--    1 www      www          5620 Sep 17 17:31 golf_2010footer.html.php
+-rw-r--r--    1 www      www          1587 Mar 12  2012 golf_2010friend.html.php
+-rw-r--r--    1 www      www          2954 Apr  2  2013 golf_2010header.html.php
+-rw-r--r--    1 www      www          6335 Mar 14  2012 golf_2010map.html.php
+-rw-r--r--    1 www      www         11746 May 30 14:34 golf_2010newslist1.html.php
+-rw-r--r--    1 www      www          1092 Sep 13 11:30 golf_2010pic.html.php
+-rw-r--r--    1 www      www          2435 Mar 27  2013 golf_2010rank1.html.php
+-rw-r--r--    1 www      www          3079 May 30 18:02 golf_2010travel.html.php
+-rw-r--r--    1 www      www          4706 Oct 15 11:16 golf_2010usgtf.html.php
+lrwxrwxrwx    1 www      www            51 Nov  8 17:51 guangzhouhengda_fc.html.php -> /home/www/sportscn/we/guangzhouhengda/hengdafc.html
+-rw-r--r--    1 www      www          9795 Nov  8 17:37 guangzhouhengda.html.php
+-rw-r--r--    1 www      www          1392 Feb 17  2011 header.html.php
+-rw-r--r--    1 www      www          1380 Feb 21  2011 health_bbs.html.php
+-rw-r--r--    1 www      www          1936 Apr  5  2012 health_footer.html.php
+-rw-r--r--    1 www      www          4166 Feb 21  2011 health_header.html.php
+-rw-r--r--    1 www      www          2506 Feb 21  2011 health_newslist1.html.php
+-rw-r--r--    1 www      www           969 Feb 21  2011 health_newslist1_r.html.php
+-rw-r--r--    1 www      www          4004 Feb 21  2011 health_newslist2.html.php
+-rw-r--r--    1 www      www          2536 Feb 21  2011 health_newslist2_r.html.php
+-rw-r--r--    1 www      www          4041 Feb 21  2011 health_newslist3.html.php
+-rw-r--r--    1 www      www          2362 Feb 21  2011 health_newslist3_r.html.php
+-rw-r--r--    1 www      www          9569 Feb 21  2011 health_shop.html.php
+-rw-r--r--    1 www      www           983 Feb 22  2011 health_top.html.php
+-rw-r--r--    1 www      www          1237 Feb 21  2011 health_top_r.html.php
+-rw-r--r--    1 www      www          1816 Feb 21  2011 health_wb.html.php
+drwxr-xr-x    3 www      www          4096 Apr  2  2009 images
+-rw-r--r--    1 www      www          2413 Mar 25  2013 index2010_album.html.php
+-rw-r--r--    1 www      www           555 Feb 17  2011 index2010_bbstipsbasket.html.php
+-rw-r--r--    1 www      www           548 Feb 17  2011 index2010_bbstips.html.php
+-rw-r--r--    1 www      www          1306 Jul 30  2012 index2010_euro.html.php
+-rw-r--r--    1 www      www          3818 Aug  8 11:11 index2010_golf.html.php
+-rw-r--r--    1 www      www          1274 Feb 17  2011 index2010_imgtext.html.php
+-rw-r--r--    1 www      www           776 Nov  9  2012 index2010_imgtitle.html.php
+-rw-r--r--    1 www      www          4534 Nov  8 16:21 index2010_newslist1.html.php
+-rw-r--r--    1 www      www          1819 Feb 17  2011 index2010_newslist3.html.php
+-rw-r--r--    1 www      www          4296 Feb 27  2013 index2010_newslist.html.php
+-rw-r--r--    1 www      www           247 Feb 17  2011 index2010_scrollnews.html.php
+-rw-r--r--    1 www      www          3191 Aug  6  2012 index2010_tennis.html.php
+-rw-r--r--    1 www      www           270 Feb 26  2013 index2010_topnews.html.php
+-rw-r--r--    1 www      www            99 Feb 17  2011 index.html.php
+-rw-r--r--    1 www      www         14670 Feb 17  2011 index.html.php.closewe
+-rw-r--r--    1 www      www           870 Nov  6  2012 indextopcai_topcontent0news.html.php
+drwxr-xr-x    2 www      www          4096 Apr  2  2009 js
+-rw-r--r--    1 www      www           217 Aug  3  2011 live_bbs.html.php
+-rw-r--r--    1 www      www           218 Feb  7  2012 live_nbabbs.html.php
+-rw-r--r--    1 www      www          2347 Jan 17  2013 live_nba.html.php
+-rw-r--r--    1 www      www          1868 Oct 26  2012 m500_bak.html.php
+-rw-r--r--    1 www      www           648 Jun  7  2012 m500_footer.html.php
+-rw-r--r--    1 www      www          1535 Sep 25  2012 m500_header.html.php
+-rw-r--r--    1 www      www          3779 Jul 30 13:49 m500_index.html.php
+-rw-r--r--    1 www      www          1093 Apr 16  2012 m500_nav.html.php
+-rw-r--r--    1 www      www          2009 Jul 18 16:20 m500_view.html.php
+-rw-r--r--    1 www      www         11325 Sep 15  2011 m500_view.html.php.120208
+-rw-r--r--    1 www      www         16945 Oct 10  2011 master_foot.html.php
+-rw-r--r--    1 www      www          4759 Oct 17  2011 master_main.html.php
+-rw-r--r--    1 www      www          1401 Oct 17  2011 master_top.html.php
+-rw-r--r--    1 www      www          4467 Oct 17  2011 master_vote.html.php
+-rw-r--r--    1 www      www         10031 Jan 17  2013 news_category2010.html.php
+-rw-r--r--    1 www      www         10700 Aug  9 17:48 news_category.html.php
+-rw-r--r--    1 www      www          2426 Nov  8 15:14 news_footer2010.html.php
+-rw-r--r--    1 www      www           542 Feb 17  2011 news_footer.html.php
+-rw-r--r--    1 www      www          1551 Feb 17  2011 news_footer.html.php.newclose
+-rw-r--r--    1 www      www          3515 Sep 17 09:51 news_header2010.html.php
+-rw-r--r--    1 www      www          3413 Jul 25 16:21 news_header2013.html.php
+-rw-r--r--    1 www      www          1728 Apr  5  2012 news_header.html.php
+-rw-r--r--    1 www      www          1953 Feb 17  2011 news_header.html.php.bakad
+-rw-r--r--    1 www      www          3213 Feb 17  2011 news_header.html.php.newclose
+-rw-r--r--    1 www      www          7663 Feb 17  2011 news_index.html.php
+-rw-r--r--    1 www      www         29253 Oct 10  2012 news_pics.html.php
+-rw-r--r--    1 www      www          8749 Nov  8 16:05 news_sportscnindexlist.html.php
+-rw-r--r--    1 www      www          1447 Nov  8 16:05 news_sportscnlist_bj.html.php
+-rw-r--r--    1 www      www          1955 Nov  8 16:05 news_sportscnlist.html.php
+-rw-r--r--    1 www      www          1899 Nov  8 16:05 news_sportscnpic.html.php
+-rw-r--r--    1 www      www         27919 Aug 19 17:17 news_view2010.html.php
+-rw-r--r--    1 www      www         20740 Feb 17  2011 news_view2010.html.php.101124
+-rw-r--r--    1 www      www           795 Oct 10  2012 news_view2010_huahua1.html.php
+-rw-r--r--    1 www      www           488 Mar 19  2013 news_view2010_huahua.html.php
+-rw-r--r--    1 www      www          7599 Jul 16 12:57 news_view_bak.html.php
+-rw-r--r--    1 www      www          5836 Feb 17  2011 news_viewcomment.html.php
+-rw-r--r--    1 www      www         23865 Nov  8 16:15 news_view.html.php
+-rw-r--r--    1 www      www         13243 Feb 17  2011 news_view.html.php090616
+-rw-r--r--    1 www      www         29030 Feb 20  2012 news_view.html.php120222
+-rw-r--r--    1 www      www          1057 Nov  8 17:21 news_view_tags.html.php
+-rw-r--r--    1 www      www           622 Jul 20  2011 news_weibo2010.html.php
+drwxr-xr-x    2 www      www          4096 Nov 26  2010 oldbak
+-rw-r--r--    1 www      www          2306 Sep 12 16:49 page_category.html.php
+-rw-r--r--    1 www      www           799 Sep  9 10:59 page_footer.html.php
+-rw-r--r--    1 www      www          2648 Sep 18 11:06 page_header.html.php
+-rw-r--r--    1 www      www         14926 Sep 17 12:05 page_index.html.php
+-rw-r--r--    1 www      www          6116 Sep 12 15:59 page_right.html.php
+-rw-r--r--    1 www      www          5021 Sep 12 16:50 page_view.html.php
+-rw-r--r--    1 www      www          1330 Feb 17  2011 poker_activity.html.php
+-rw-r--r--    1 www      www          3218 Feb 17  2011 poker_category.html.php
+-rw-r--r--    1 www      www            70 Feb 17  2011 poker_footer.html.php
+-rw-r--r--    1 www      www          2048 Feb 17  2011 poker_header.html.php
+-rw-r--r--    1 www      www          5135 Feb 17  2011 poker_index.html.php
+-rw-r--r--    1 www      www           599 Feb 17  2011 poker_link.html.php
+-rw-r--r--    1 www      www          3807 Feb 17  2011 poker_pics.html.php
+-rw-r--r--    1 www      www          2039 Feb 17  2011 poker_top10.html.php
+-rw-r--r--    1 www      www         10902 Feb 17  2011 poker_view.html.php
+-rw-r--r--    1 www      www           812 Feb 17  2011 sendmail.html.php
+-rw-r--r--    1 www      www          1631 Nov  8 16:05 seo_guangzhouhengda.html.php
+-rw-r--r--    1 www      www          1391 Nov  8 16:05 seo_shijiebei.html.php
+-rw-r--r--    1 www      www          1435 May  3  2013 showmessage.html.php
+-rw-r--r--    1 www      www          2306 Feb 17  2011 showmessage.html.php.120222
+-rw-r--r--    1 www      www          1542 Feb 17  2011 site_announcement.html.php
+-rw-r--r--    1 www      www           853 Feb 17  2011 site_footer.html.php
+-rw-r--r--    1 www      www          1538 Feb 17  2011 site_header.html.php
+-rw-r--r--    1 www      www          1449 Feb 17  2011 site_link.html.php
+-rw-r--r--    1 www      www          4654 Feb 17  2011 site_login.html.php
+-rw-r--r--    1 www      www          4265 Feb 17  2011 site_lostpasswd.html.php
+-rw-r--r--    1 www      www          5245 Feb 17  2011 site_manage.html.php
+-rw-r--r--    1 www      www          2049 Feb 17  2011 site_map.html.php
+-rw-r--r--    1 www      www          1340 Feb 17  2011 site_panel.html.php
+-rw-r--r--    1 www      www          4983 Feb 17  2011 site_poll.html.php
+-rw-r--r--    1 www      www          2687 Feb 17  2011 site_poll.html.php1
+-rw-r--r--    1 www      www         10572 Feb 17  2011 site_register.html.php
+-rw-r--r--    1 www      www          3498 Feb 17  2011 site_search.html.php
+-rw-r--r--    1 www      www          4434 Feb 17  2011 site_secques.html.php
+-rw-r--r--    1 www      www          1412 Feb 17  2011 site_tagall.html.php
+-rw-r--r--    1 www      www         10757 Nov 21  2012 site_tag.html.php
+-rw-r--r--    1 www      www          5968 Feb 17  2011 site_tag.html.php.101013
+-rw-r--r--    1 www      www          1766 Feb 17  2011 site_track.html.php
+-rw-r--r--    1 www      www          6094 Feb 19  2013 tennis_2011leftlist1.html.php
+-rw-r--r--    1 www      www          4859 Dec 28  2011 tennis_2011middle1.html.php
+-rw-r--r--    1 www      www         14207 Aug 27 18:15 tennis_2011middle2.html.php
+-rw-r--r--    1 www      www          3758 Aug  8 10:25 tennis_2011ranking.html.php
+-rw-r--r--    1 www      www          7822 Jul 27  2011 tennis_2011right2.html.php
+-rw-r--r--    1 www      www           590 Mar 30  2012 tennis_2011topnews.html.php
+-rw-r--r--    1 www      www           760 May 19  2011 tennis_action.html.php
+-rw-r--r--    1 www      www          2588 Feb 17  2011 tennis_court.html.php
+-rw-r--r--    1 www      www          8652 Mar  2  2011 tennis_equipment.html.php
+-rw-r--r--    1 www      www          1698 Sep 17 16:20 tennis_game.html.php
+-rw-r--r--    1 www      www           734 Feb 17  2011 tennis_investigation.html.php
+-rw-r--r--    1 www      www          1091 Feb 17  2011 tennis_newstag.html.php
+-rw-r--r--    1 www      www           621 Feb 17  2011 tennis_picnews.html.php
+-rw-r--r--    1 www      www          1517 May  2  2013 tennis_qa.html.php
+-rw-r--r--    1 www      www          5576 Feb 17  2011 tennis_teaching.html.php
+-rw-r--r--    1 www      www          1016 Feb 17  2011 tennis_topnews.html.php
+-rw-r--r--    1 www      www           713 Feb 17  2011 tennis_tvinfo.html.php
+-rw-r--r--    1 www      www         10673 Feb 17  2011 tennis_we.html.php
+-rw-r--r--    1 www      www          2937 Feb 17  2011 test1.html.php
+-rw-r--r--    1 www      www             8 Feb 17  2011 test.html.php
+[www@storage1042 sportscn]$ ls -l guangzhouhengda*
+lrwxrwxrwx    1 www      www            51 Nov  8 17:51 guangzhouhengda_fc.html.php -> /home/www/sportscn/we/guangzhouhengda/hengdafc.html
+-rw-r--r--    1 www      www          9795 Nov  8 17:37 guangzhouhengda.html.php
+[www@storage1042 sportscn]$ cat guangzhouhengda_fc.html.php 
+<div class="nrank mt10"><div class="fm"><b>浜氬啝</b> <a name="M1" style="LEFT: 174px" class="Off" id="M1" onmouseover="MM(0,'M1','B1','');">璧涚▼琛/a> <a name="M1" style="LEFT: 244px" class="On" id="M1" onmouseover="MM(1,'M1','B1','');">灏勬墜姒/a> </div><div class="fm_b2"><ul name="B1" class="Bang" id="B1" style=""><div style="DISPLAY: block" class="Banglist"><ul class="first"> <li class="bracel1"><a>杞</a></li> <li class="bracel2"><a>鏃ユ湡</a></li> <li class="bracel3"><a>涓婚槦</a></li> <li class="bracel4"><a>姣斿垎</a></li> <li class="bracel5"><a>瀹㈤槦</a></li></ul><ul> <li class="bracel1"><a>鍐宠禌娆/a></li> <li class="bracel2"><a>2013.11.9</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a></a></li> <li class="bracel5"><a>FC棣栧皵</a></li></ul><ul> <li class="bracel1"><a>鍐宠禌棣/a></li> <li class="bracel2"><a>2013.10.26</a></li> <li class="bracel3"><a>FC棣栧皵</a></li> <li class="bracel4"><a>2:2</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>鍗婂喅璧涙</a></li> <li class="bracel2"><a>2013.10.2</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>4:0</a></li> <li class="bracel5"><a>鏌忓お闃崇</a></li></ul><ul> <li class="bracel1"><a>鍗婂喅璧涢</a></li> <li class="bracel2"><a>2013.9.25</a></li> <li class="bracel3"><a>鏌忓お闃崇</a></li> <li class="bracel4"><a>1:4</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>1/4娆/a></li> <li class="bracel2"><a>2013.9.18</a></li> <li class="bracel3"><a>鑾辫但缁翠簹</a></li> <li class="bracel4"><a>1:4</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>1/4棣/a></li> <li class="bracel2"><a>2013.8.21</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>2:0</a></li> <li class="bracel5"><a>鑾辫但缁翠簹</a></li></ul><ul> <li class="bracel1"><a>1/8娆/a></li> <li class="bracel2"><a>2013.5.22</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>3:0</a></li> <li class="bracel5"><a>涓ぎ娴峰哺姘存墜</a></li></ul><ul> <li class="bracel1"><a>1/8棣/a></li> <li class="bracel2"><a>2013.5.15</a></li> <li class="bracel3"><a>涓ぎ娴峰哺姘存墜</a></li> <li class="bracel4"><a>1:2</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>绗叚杞/a></li> <li class="bracel2"><a>2013.5.1</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>0:0</a></li> <li class="bracel5"><a>鍏ㄥ寳鐜颁唬</a></li></ul><ul> <li class="bracel1"><a>绗簲杞/a></li> <li class="bracel2"><a>2013.4.24</a></li> <li class="bracel3"><a>娴﹀拰绾㈤捇</a></li> <li class="bracel4"><a>3:2</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>绗洓杞/a></li> <li class="bracel2"><a>2013.4.9</a></li> <li class="bracel3"><a>钂欓€氳仈闃/a></li> <li class="bracel4"><a>1:4</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>绗笁杞/a></li> <li class="bracel2"><a>2013.4.3</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>4:0</a></li> <li class="bracel5"><a>钂欓€氳仈闃/a></li></ul><ul> <li class="bracel1"><a>绗簩杞/a></li> <li class="bracel2"><a>2013.3.12</a></li> <li class="bracel3"><a>鍏ㄥ寳鐜颁唬</a></li> <li class="bracel4"><a>1:1</a></li> <li class="bracel5"><a>骞垮窞鎭掑ぇ</a></li></ul><ul> <li class="bracel1"><a>绗竴杞/a></li> <li class="bracel2"><a>2013.2.26</a></li> <li class="bracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="bracel4"><a>3:0</a></li> <li class="bracel5"><a>娴﹀拰绾㈤捇</a></li></ul></div></ul><ul name="B1" style="display:none" class="Bang" id="B1"><div jquery17205382323661072996="11" style="DISPLAY: block" class="Banglist"><ul class="first"> <li class="sracel1"><a>鎺掑悕</a></li> <li class="sracel2"><a>鐞冨憳</a></li> <li class="sracel3"><a>鐞冮槦</a></li> <li class="sracel4"><a>杩涚悆鏁/a></li></ul><ul> <li class="sracel1"><a>1</a></li> <li class="sracel2"><a>绌嗛噷濂/a></li> <li class="sracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sracel4"><a>13</a></li></ul><ul> <li class="sracel1"><a>2</a></li> <li class="sracel2"><a>瀛斿崱</a></li> <li class="sracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sracel4"><a>8</a></li></ul><ul> <li class="sracel1"><a>3</a></li> <li class="sracel2"><a>閲岃礉缃/a></li> <li class="sracel3"><a>闃垮皵璐惧吂鎷/a></li> <li class="sracel4"><a>7</a></li></ul><ul> <li class="sracel1"><a>4</a></li> <li class="sracel2"><a>宸ヨ棨澹汉</a></li> <li class="sracel3"><a>鏌忓お闃崇</a></li> <li class="sracel4"><a>6</a></li></ul><ul> <li class="sracel1"><a>5</a></li> <li class="sracel2"><a>鍩冨皵鍏嬫．</a></li> <li class="sracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sracel4"><a>5</a></li></ul><ul> <li class="sracel1"><a>6</a></li> <li class="sracel2"><a>闃垮皵渚禌灏/a></li> <li class="sracel3"><a>闃垮皵闃胯但鍒/a></li> <li class="sracel4"><a>4</a></li></ul><ul> <li class="sracel1"><a>7</a></li> <li class="sracel2"><a>瑗垮</a></li> <li class="sracel3"><a>濉炲笗缃/a></li> <li class="sracel4"><a>4</a></li></ul><ul> <li class="sracel1"><a>8</a></li> <li class="sracel2"><a>濉炲反鏂拏瀹/a></li> <li class="sracel3"><a>鑾辫但缁翠簹</a></li> <li class="sracel4"><a>4</a></li></ul><ul> <li class="sracel1"><a>9</a></li> <li class="sracel2"><a>宸撮噷濂ユ柉</a></li> <li class="sracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sracel4"><a>3</a></li></ul><ul> <li class="sracel1"><a>10</a></li> <li class="sracel2"><a>閮滄灄</a></li> <li class="sracel3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sracel4"><a>3</a></li></ul></div></ul></div></div><div class="nrank mt10"><div class="fm"><b>涓秴</b> <a name="M2" style="LEFT: 174px" class="On" id="M2" onmouseover="MM(0,'M2','B2','');">绉垎姒/a> <a name="M2" style="LEFT: 244px" class="Off" id="M2" onmouseover="MM(1,'M2','B2','');">灏勬墜姒/a> </div><div class="fm_b2"><ul name="B2" class="Bang" id="B2" style=""><div style="DISPLAY: block" class="Banglist"><ul class="first"> <li class="bl1"><a>鎺掑悕</a></li> <li class="bl2"><a>鐞冮槦</a></li> <li class="bl3"><a>杞</a></li> <li class="bl4"><a>绉垎</a></li> <li class="bl5"><a>鍑€鑳滅悆</a></li></ul><ul> <li class="bl1"><a>1</a></li> <li class="bl2"><a>骞垮窞鎭掑ぇ</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>77</a></li> <li class="bl5"><a>60</a></li></ul><ul> <li class="bl1"><a>2</a></li> <li class="bl2"><a>灞变笢椴佽兘</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>59</a></li> <li class="bl5"><a>20</a></li></ul><ul> <li class="bl1"><a>3</a></li> <li class="bl2"><a>鍖椾含鍥藉畨</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>51</a></li> <li class="bl5"><a>23</a></li></ul><ul> <li class="bl1"><a>4</a></li> <li class="bl2"><a>璐靛窞浜哄拰</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>44</a></li> <li class="bl5"><a>-1</a></li></ul><ul> <li class="bl1"><a>5</a></li> <li class="bl2"><a>骞垮窞瀵屽姏</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>41</a></li> <li class="bl5"><a>0</a></li></ul><ul> <li class="bl1"><a>6</a></li> <li class="bl2"><a>澶ц繛闃垮皵婊/a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>41</a></li> <li class="bl5"><a>-3</a></li></ul><ul> <li class="bl1"><a>7</a></li> <li class="bl2"><a>涓婃捣鐢抽懌</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>41</a></li> <li class="bl5"><a>-11</a></li></ul><ul> <li class="bl1"><a>8</a></li> <li class="bl2"><a>涓婃捣鐢宠姳</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>38</a></li> <li class="bl5"><a>0</a></li></ul><ul> <li class="bl1"><a>9</a></li> <li class="bl2"><a>涓婃捣涓婃腐</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>37</a></li> <li class="bl5"><a>3</a></li></ul><ul> <li class="bl1"><a>10</a></li> <li class="bl2"><a>杈藉畞瀹忚繍</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>35</a></li> <li class="bl5"><a>-9</a></li></ul><ul> <li class="bl1"><a>11</a></li> <li class="bl2"><a>澶╂触娉拌揪</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>34</a></li> <li class="bl5"><a>-4</a></li></ul><ul> <li class="bl1"><a>12</a></li> <li class="bl2"><a>鏉窞缁垮煄</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>34</a></li> <li class="bl5"><a>-8</a></li></ul><ul> <li class="bl1"><a>13</a></li> <li class="bl2"><a>姹熻嫃鑸滃ぉ</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>32</a></li> <li class="bl5"><a>-8</a></li></ul><ul> <li class="bl1"><a>14</a></li> <li class="bl2"><a>闀挎槬浜氭嘲</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>32</a></li> <li class="bl5"><a>-12</a></li></ul><ul> <li class="bl1"><a>15</a></li> <li class="bl2"><a>闈掑矝涓兘</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>31</a></li> <li class="bl5"><a>-15</a></li></ul><ul> <li class="bl1"><a>16</a></li> <li class="bl2"><a>姝︽眽鍗撳皵</a></li> <li class="bl3"><a>30</a></li> <li class="bl4"><a>16</a></li> <li class="bl5"><a>-34</a></li></ul></div></ul><ul name="B2" style="display: none;" class="Bang" id="B2"><div jquery17205382323661072996="11" style="DISPLAY: block" class="Banglist"><ul class="first"> <li class="sl1"><a>鎺掑悕</a></li> <li class="sl2"><a>鐞冨憳</a></li> <li class="sl3"><a>鐞冮槦</a></li> <li class="sl4"><a>杩涚悆鏁/a></li></ul><ul> <li class="sl1"><a>1</a></li> <li class="sl2"><a>鍩冨皵鍏嬫．</a></li> <li class="sl3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sl4"><a>24</a></li></ul><ul> <li class="sl1"><a>2</a></li> <li class="sl2"><a>鐡︿鸡瑗夸簹</a></li> <li class="sl3"><a>澶╂触娉拌揪</a></li> <li class="sl4"><a>16</a></li></ul><ul> <li class="sl1"><a>3</a></li> <li class="sl2"><a>闆呭簱甯/a></li> <li class="sl3"><a>骞垮窞瀵屽姏</a></li> <li class="sl4"><a>15</a></li></ul><ul> <li class="sl1"><a>4</a></li> <li class="sl2"><a>姝︾</a></li> <li class="sl3"><a>涓婃捣涓婃腐</a></li> <li class="sl4"><a>15</a></li></ul><ul> <li class="sl1"><a>5</a></li> <li class="sl2"><a>涔屽鍗/a></li> <li class="sl3"><a>鍖椾含鍥藉畨</a></li> <li class="sl4"><a>14</a></li></ul><ul> <li class="sl1"><a>6</a></li> <li class="sl2"><a>鍩冩潨</a></li> <li class="sl3"><a>杈藉畞瀹忚繍</a></li> <li class="sl4"><a>14</a></li></ul><ul> <li class="sl1"><a>7</a></li> <li class="sl2"><a>瀛斿崱</a></li> <li class="sl3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sl4"><a>14</a></li></ul><ul> <li class="sl1"><a>8</a></li> <li class="sl2"><a>寮犵█鍝/a></li> <li class="sl3"><a>鍖椾含鍥藉畨</a></li> <li class="sl4"><a>11</a></li></ul><ul> <li class="sl1"><a>9</a></li> <li class="sl2"><a>鐜嬫案鐝€</a></li> <li class="sl3"><a>灞变笢椴佽兘</a></li> <li class="sl4"><a>11</a></li></ul><ul> <li class="sl1"><a>10</a></li> <li class="sl2"><a>鎷夋枑灏/a></li> <li class="sl3"><a>骞垮窞瀵屽姏</a></li> <li class="sl4"><a>10</a></li></ul><ul> <li class="sl1"><a>11</a></li> <li class="sl2"><a>钀ㄥ埄璧/a></li> <li class="sl3"><a>姹熻嫃鑸滃ぉ</a></li> <li class="sl4"><a>9</a></li></ul><ul> <li class="sl1"><a>12</a></li> <li class="sl2"><a>鍗″姫鐗/a></li> <li class="sl3"><a>鍖椾含鍥藉畨</a></li> <li class="sl4"><a>9</a></li></ul><ul> <li class="sl1"><a>13</a></li> <li class="sl2"><a>杈捐开</a></li> <li class="sl3"><a>涓婃捣鐢宠姳</a></li> <li class="sl4"><a>9</a></li></ul><ul> <li class="sl1"><a>14</a></li> <li class="sl2"><a>鍑拻</a></li> <li class="sl3"><a>涓婃捣鐢抽懌</a></li> <li class="sl4"><a>9</a></li></ul><ul> <li class="sl1"><a>15</a></li> <li class="sl2"><a>鍝堣拏甯/a></li> <li class="sl3"><a>涓婃捣鐢宠姳</a></li> <li class="sl4"><a>8</a></li></ul><ul> <li class="sl1"><a>16</a></li> <li class="sl2"><a>閮滄灄</a></li> <li class="sl3"><a>骞垮窞鎭掑ぇ</a></li> <li class="sl4"><a>8</a></li></ul></div></ul></d[www@storage1042 sportscn]$ ls -l guangzhouhengda*
+lrwxrwxrwx    1 www      www            51 Nov  8 17:51 guangzhouhengda_fc.html.php -> /home/www/sportscn/we/guangzhouhengda/hengdafc.html
+-rw-r--r--    1 www      www          9795 Nov  8 17:37 guangzhouhengda.html.php
+[www@storage1042 sportscn]$ 
