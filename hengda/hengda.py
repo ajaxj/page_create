@@ -480,8 +480,8 @@ class Hengda:
 if __name__ == "__main__":
     hd = Hengda()
     hd.readpageindex()
-    hd.readpage253()
-    hd.readpage254()
+    #hd.readpage253()
+    #hd.readpage254()
     hd.readpage255()
     hd.readpage256()
     hd.readpage257()
