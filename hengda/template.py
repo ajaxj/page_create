@@ -83,6 +83,19 @@ def createpage_template(current,pagecount,id):
                 else:
                     _page += "<a href=\"http://we.sportscn.com/guangzhouhengda/hengdazuqiu/index"+str(i)+".html\">"+str(i)+"</a>"
         _page += "</div>"
+    elif id == 260:
+        for i in range(1,pagecount+1):
+            if i == 1:
+                if current == i:
+                    _page += "<a href=\"http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/index.html\"><strong>"+str(i)+"</strong></a>"
+                else:
+                    _page += "<a href=\"http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/index.html\">"+str(i)+"</a>"
+            else:
+                if current == i:
+                    _page += "<a href=\"http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/index"+str(i)+".html\"><strong>"+str(i)+"</strong></a>"
+                else:
+                    _page += "<a href=\"http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/index"+str(i)+".html\">"+str(i)+"</a>"
+        _page += "</div>"
     else:
        for i in range(1,pagecount+1):
             if i == 1:

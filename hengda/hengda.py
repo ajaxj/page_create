@@ -14,7 +14,8 @@ class Hengda:
     url_256 = "http://we.sportscn.com/category-256.html"
     url_257 = "http://we.sportscn.com/category-257.html"
     url_258 = "http://we.sportscn.com/category-258.html"
-    url_index = "http://we.sportscn.com/guangzhouhengda/index1.html"
+    url_260 = "http://we.sportscn.com/category-260.html"
+    url_index = "http://we.sportscn.com/guangzhouhengda/index1.html?2"
 
 
     path_253 = r'%s/'%("e:/guangzhouhengda/guangzhouhengda")
@@ -34,6 +35,9 @@ class Hengda:
 
     path_258 = r'%s/'%("e:/guangzhouhengda/hengdazuqiu")
     path_news_258 = r'%s/'%("e:/guangzhouhengda/hengdazuqiu/news")
+
+    path_260 = r'%s/'%("e:/guangzhouhengda/hengdazuqiuxuexiao")
+    path_news_260 = r'%s/'%("e:/guangzhouhengda/hengdazuqiuxuexiao/news")
 
     path_index =  r'%s/'%("e:/guangzhouhengda")
     path_news =  r'%s/'%("e:/guangzhouhengda")
@@ -77,6 +81,8 @@ class Hengda:
         elif id== "257":
             _path = self.path_news
         elif id== "258":
+            _path = self.path_news
+        elif id== "260":
             _path = self.path_news
         else:
             _path = self.path_news
@@ -128,7 +134,7 @@ class Hengda:
             #
             nrank_div = soup.find("div",{"class":"nmr nrank"})
             zxgx_div = soup.findAll("div",{"class":"nmr zxgx"})[1]
-            ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+            #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
             twns_div = soup.find("div",{"class":"nm twns"})
             divpage_list = soup.findAll("div",{'class':'pages'})
             for div in divpage_list:
@@ -140,7 +146,7 @@ class Hengda:
 
             nrank_div.clear()
             zxgx_div.clear()
-            ktss_div.clear()
+            #ktss_div.clear()
             twns_div.clear()
 
 
@@ -156,6 +162,7 @@ class Hengda:
             _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
             _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
             _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
             fileHandle.write(_html)
             fileHandle.close()
 
@@ -167,7 +174,7 @@ class Hengda:
 
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.findAll("div",{"class":"nmr zxgx"})[1]
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
                 divpage_list = soup.findAll("div",{'class':'pages'})
                 for div in divpage_list:
@@ -178,7 +185,7 @@ class Hengda:
 
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
 
                 fileHandle = open(self.path_253+"index" + str(i)+".html","w")
@@ -189,6 +196,7 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
                 print i
@@ -211,7 +219,7 @@ class Hengda:
 
             nrank_div = soup.find("div",{"class":"nmr nrank"})
             zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-            ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+            #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
             twns_div = soup.find("div",{"class":"nm twns"})
             divpage_list = soup.findAll("div",{"class":"pages"})
             for div in divpage_list:
@@ -222,7 +230,7 @@ class Hengda:
 
             nrank_div.clear()
             zxgx_div.clear()
-            ktss_div.clear()
+            #ktss_div.clear()
             twns_div.clear()
 
             self.createnews("254",html)      #  生成详细
@@ -235,6 +243,7 @@ class Hengda:
             _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
             _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
             _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
             fileHandle.write(_html)
             fileHandle.close()
 
@@ -246,7 +255,7 @@ class Hengda:
 
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
                 divpage_list = soup.findAll("div",{'class':'pages'})
                 for div in divpage_list:
@@ -257,7 +266,7 @@ class Hengda:
 
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
 
                 fileHandle = open(self.path_254+"index" + str(i)+".html","w")
@@ -268,6 +277,7 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
                 print i
@@ -284,11 +294,11 @@ class Hengda:
             if div == None:         #判断是否有分页,没有就只抓取第一页
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
 
                 fileHandle = open(self.path_255+"index.html","w")
@@ -299,6 +309,7 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
                 #抓取首页详细
@@ -313,16 +324,62 @@ class Hengda:
             html = self.readgzip(self.url_256)
             soup = BeautifulSoup(html)
             div = soup.find("div",{'class':'pages'})
-            if div == None:
+            a_list = div.findAll('a')
+            if a_list[-1].text == u"下一页":
+                pagecount =  int(a_list[-2].text.replace("...",""))
+            else:
+                pagecount = 1
+
+            nrank_div = soup.find("div",{"class":"nmr nrank"})
+            zxgx_div = soup.find("div",{"class":"nmr zxgx"})
+            #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+            twns_div = soup.find("div",{"class":"nm twns"})
+            divpage_list = soup.findAll("div",{'class':'pages'})
+            for div in divpage_list:
+                div.clear()
+                _page_template = createpage_template(1,pagecount,256)
+                p  = BeautifulSoup(_page_template)
+                div.insert(1,p)
+
+            nrank_div.clear()
+            zxgx_div.clear()
+            #ktss_div.clear()
+            twns_div.clear()
+            self.createnews("256",html)      #  生成详细
+
+            fileHandle = open(self.path_256+"index.html","w")
+            _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
+            _html = _html.replace("http://we.sportscn.com/category-253.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengda/")
+            _html = _html.replace("http://we.sportscn.com/category-254.html","http://we.sportscn.com/guangzhouhengda/hengdayaguan/")
+            _html = _html.replace("http://we.sportscn.com/category-255.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengdazuqiujulebu/")
+            _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
+            _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
+            _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
+            fileHandle.write(_html)
+            fileHandle.close()
+
+            for i in range(2,pagecount+1):
+                url = "http://we.sportscn.com/category-256-page-" + str(i) + ".html"
+                index_data = self.readgzip(url)
+                self.createnews("256",index_data) #生成详细
+                soup = BeautifulSoup(index_data)
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
+                divpage_list = soup.findAll("div",{'class':'pages'})
+                for div in divpage_list:
+                    div.clear()
+                    _page_template = createpage_template(i,pagecount,256)
+                    p  = BeautifulSoup(_page_template)
+                    div.insert(1,p)
+
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
-                fileHandle = open(self.path_256+"index.html","w")
+                fileHandle = open(self.path_256+"index" + str(i)+".html","w")
                 _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
                 _html = _html.replace("http://we.sportscn.com/category-253.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengda/")
                 _html = _html.replace("http://we.sportscn.com/category-254.html","http://we.sportscn.com/guangzhouhengda/hengdayaguan/")
@@ -330,10 +387,11 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
-                #抓取首页详细
-                self.createnews("256",html)
+                print i
+
         except Exception,e:
             print e
 
@@ -347,11 +405,11 @@ class Hengda:
             if div == None:
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
                 fileHandle = open(self.path_257+"index.html","w")
                 _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
@@ -361,6 +419,7 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
                 #抓取首页详细
@@ -376,14 +435,17 @@ class Hengda:
             soup = BeautifulSoup(html)
             div = soup.find("div",{'class':'pages'})
             a_list = div.findAll('a')
+
             if a_list[-1].text == u"下一页":
                 pagecount =  int(a_list[-2].text.replace("...",""))
             else:
                 pagecount = 1
 
+
+
             nrank_div = soup.find("div",{"class":"nmr nrank"})
             zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-            ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+            #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
             twns_div = soup.find("div",{"class":"nm twns"})
             divpage_list = soup.findAll("div",{'class':'pages'})
             for div in divpage_list:
@@ -394,7 +456,7 @@ class Hengda:
 
             nrank_div.clear()
             zxgx_div.clear()
-            ktss_div.clear()
+            #ktss_div.clear()
             twns_div.clear()
             self.createnews("258",html)      #  生成详细
 
@@ -408,6 +470,7 @@ class Hengda:
             _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
             _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
             _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
             fileHandle.write(_html)
             fileHandle.close()
 
@@ -418,7 +481,7 @@ class Hengda:
                 soup = BeautifulSoup(index_data)
                 nrank_div = soup.find("div",{"class":"nmr nrank"})
                 zxgx_div = soup.find("div",{"class":"nmr zxgx"})
-                ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
                 twns_div = soup.find("div",{"class":"nm twns"})
                 divpage_list = soup.findAll("div",{'class':'pages'})
                 for div in divpage_list:
@@ -429,7 +492,7 @@ class Hengda:
 
                 nrank_div.clear()
                 zxgx_div.clear()
-                ktss_div.clear()
+                #ktss_div.clear()
                 twns_div.clear()
                 fileHandle = open(self.path_258+"index" + str(i)+".html","w")
                 _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
@@ -439,12 +502,99 @@ class Hengda:
                 _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
                 _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
                 _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
                 fileHandle.write(_html)
                 fileHandle.close()
                 print i
 
         except Exception,e:
             print e
+
+
+    #恒大足球  hengdazuqiuxuexiao 258
+    def readpage260(self):
+        try:
+            html = self.readgzip(self.url_260)
+            soup = BeautifulSoup(html)
+            div = soup.find("div",{'class':'pages'})
+            a_list = div.findAll('a')
+
+            if a_list[-1].text == u"下一页":
+                pagecount =  int(a_list[-2].text.replace("...",""))
+            else:
+                pagecount = 1
+
+
+
+            nrank_div = soup.find("div",{"class":"nmr nrank"})
+            zxgx_div = soup.find("div",{"class":"nmr zxgx"})
+            #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+            twns_div = soup.find("div",{"class":"nm twns"})
+            divpage_list = soup.findAll("div",{'class':'pages'})
+            for div in divpage_list:
+                div.clear()
+                _page_template = createpage_template(1,pagecount,260)
+                p  = BeautifulSoup(_page_template)
+                div.insert(1,p)
+
+            nrank_div.clear()
+            zxgx_div.clear()
+            #ktss_div.clear()
+            twns_div.clear()
+            self.createnews("260",html)      #  生成详细
+
+            #处理首页连接地址
+
+            fileHandle = open(self.path_260+"index.html","w")
+            _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
+            _html = _html.replace("http://we.sportscn.com/category-253.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengda/")
+            _html = _html.replace("http://we.sportscn.com/category-254.html","http://we.sportscn.com/guangzhouhengda/hengdayaguan/")
+            _html = _html.replace("http://we.sportscn.com/category-255.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengdazuqiujulebu/")
+            _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
+            _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
+            _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
+            fileHandle.write(_html)
+            fileHandle.close()
+
+            for i in range(2,pagecount+1):
+                url = "http://we.sportscn.com/category-260-page-" + str(i) + ".html"
+                index_data = self.readgzip(url)
+                self.createnews("260",index_data) #生成详细
+                soup = BeautifulSoup(index_data)
+                nrank_div = soup.find("div",{"class":"nmr nrank"})
+                zxgx_div = soup.find("div",{"class":"nmr zxgx"})
+                #ktss_div = soup.find("div",{"class":"nmr twns ktss"})
+                twns_div = soup.find("div",{"class":"nm twns"})
+                divpage_list = soup.findAll("div",{'class':'pages'})
+                for div in divpage_list:
+                    div.clear()
+                    _page_template = createpage_template(i,pagecount,260)
+                    p  = BeautifulSoup(_page_template)
+                    div.insert(1,p)
+
+                nrank_div.clear()
+                zxgx_div.clear()
+                #ktss_div.clear()
+                twns_div.clear()
+                fileHandle = open(self.path_260+"index" + str(i)+".html","w")
+                _html = soup.prettify().replace("http://we.sportscn.com/viewnews-","http://we.sportscn.com/guangzhouhengda/")
+                _html = _html.replace("http://we.sportscn.com/category-253.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengda/")
+                _html = _html.replace("http://we.sportscn.com/category-254.html","http://we.sportscn.com/guangzhouhengda/hengdayaguan/")
+                _html = _html.replace("http://we.sportscn.com/category-255.html","http://we.sportscn.com/guangzhouhengda/guangzhouhengdazuqiujulebu/")
+                _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
+                _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
+                _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+                _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
+                fileHandle.write(_html)
+                fileHandle.close()
+                print i
+
+        except Exception,e:
+            print e
+
+
+
 
     #生成首页
     def readpageindex(self):
@@ -468,6 +618,8 @@ class Hengda:
             _html = _html.replace("http://we.sportscn.com/category-256.html","http://we.sportscn.com/guangzhouhengda/hengdashijubei/")
             _html = _html.replace("http://we.sportscn.com/category-257.html","http://we.sportscn.com/guangzhouhengda/hengdashipin/")
             _html = _html.replace("http://we.sportscn.com/category-258.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiu/")
+            _html = _html.replace("http://we.sportscn.com/category-260.html","http://we.sportscn.com/guangzhouhengda/hengdazuqiuxuexiao/")
+            _html = _html.replace("&lt;","<").replace("&gt;",">")
             fileHandle.write(_html)
             fileHandle.close()
 
@@ -480,9 +632,10 @@ class Hengda:
 if __name__ == "__main__":
     hd = Hengda()
     hd.readpageindex()
-    #hd.readpage253()
-    #hd.readpage254()
+    hd.readpage253()
+    hd.readpage254()
     hd.readpage255()
     hd.readpage256()
     hd.readpage257()
     hd.readpage258()
+    hd.readpage260()
